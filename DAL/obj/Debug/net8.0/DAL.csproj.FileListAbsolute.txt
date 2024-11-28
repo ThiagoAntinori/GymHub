@@ -1,0 +1,34 @@
+C:\Users\thiag\Desktop\PROJECTS\C# .NET\MaxGym\DAL\obj\Debug\net8.0\DAL.csproj.AssemblyReference.cache
+C:\Users\thiag\Desktop\PROJECTS\C# .NET\MaxGym\DAL\obj\Debug\net8.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thiag\Desktop\PROJECTS\C# .NET\MaxGym\DAL\obj\Debug\net8.0\DAL.AssemblyInfoInputs.cache
+C:\Users\thiag\Desktop\PROJECTS\C# .NET\MaxGym\DAL\obj\Debug\net8.0\DAL.AssemblyInfo.cs
+C:\Users\thiag\Desktop\PROJECTS\C# .NET\MaxGym\DAL\obj\Debug\net8.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\thiag\Desktop\PROJECTS\C# .NET\MaxGym\DAL\bin\Debug\net8.0\DAL.deps.json
+C:\Users\thiag\Desktop\PROJECTS\C# .NET\MaxGym\DAL\bin\Debug\net8.0\DAL.dll
+C:\Users\thiag\Desktop\PROJECTS\C# .NET\MaxGym\DAL\bin\Debug\net8.0\DAL.pdb
+C:\Users\thiag\Desktop\PROJECTS\C# .NET\MaxGym\DAL\bin\Debug\net8.0\Entity.dll
+C:\Users\thiag\Desktop\PROJECTS\C# .NET\MaxGym\DAL\bin\Debug\net8.0\Mapper.dll
+C:\Users\thiag\Desktop\PROJECTS\C# .NET\MaxGym\DAL\bin\Debug\net8.0\Entity.pdb
+C:\Users\thiag\Desktop\PROJECTS\C# .NET\MaxGym\DAL\bin\Debug\net8.0\Mapper.pdb
+C:\Users\thiag\Desktop\PROJECTS\C# .NET\MaxGym\DAL\obj\Debug\net8.0\DAL.csproj.Up2Date
+C:\Users\thiag\Desktop\PROJECTS\C# .NET\MaxGym\DAL\obj\Debug\net8.0\DAL.dll
+C:\Users\thiag\Desktop\PROJECTS\C# .NET\MaxGym\DAL\obj\Debug\net8.0\refint\DAL.dll
+C:\Users\thiag\Desktop\PROJECTS\C# .NET\MaxGym\DAL\obj\Debug\net8.0\DAL.pdb
+C:\Users\thiag\Desktop\PROJECTS\C# .NET\MaxGym\DAL\obj\Debug\net8.0\ref\DAL.dll
+C:\Users\Nahuel\Downloads\MaxGym-TP\DAL\bin\Debug\net8.0\DAL.deps.json
+C:\Users\Nahuel\Downloads\MaxGym-TP\DAL\bin\Debug\net8.0\DAL.dll
+C:\Users\Nahuel\Downloads\MaxGym-TP\DAL\bin\Debug\net8.0\DAL.pdb
+C:\Users\Nahuel\Downloads\MaxGym-TP\DAL\bin\Debug\net8.0\Entity.dll
+C:\Users\Nahuel\Downloads\MaxGym-TP\DAL\bin\Debug\net8.0\Mapper.dll
+C:\Users\Nahuel\Downloads\MaxGym-TP\DAL\bin\Debug\net8.0\Entity.pdb
+C:\Users\Nahuel\Downloads\MaxGym-TP\DAL\bin\Debug\net8.0\Mapper.pdb
+C:\Users\Nahuel\Downloads\MaxGym-TP\DAL\obj\Debug\net8.0\DAL.csproj.AssemblyReference.cache
+C:\Users\Nahuel\Downloads\MaxGym-TP\DAL\obj\Debug\net8.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nahuel\Downloads\MaxGym-TP\DAL\obj\Debug\net8.0\DAL.AssemblyInfoInputs.cache
+C:\Users\Nahuel\Downloads\MaxGym-TP\DAL\obj\Debug\net8.0\DAL.AssemblyInfo.cs
+C:\Users\Nahuel\Downloads\MaxGym-TP\DAL\obj\Debug\net8.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Nahuel\Downloads\MaxGym-TP\DAL\obj\Debug\net8.0\DAL.csproj.Up2Date
+C:\Users\Nahuel\Downloads\MaxGym-TP\DAL\obj\Debug\net8.0\DAL.dll
+C:\Users\Nahuel\Downloads\MaxGym-TP\DAL\obj\Debug\net8.0\refint\DAL.dll
+C:\Users\Nahuel\Downloads\MaxGym-TP\DAL\obj\Debug\net8.0\DAL.pdb
+C:\Users\Nahuel\Downloads\MaxGym-TP\DAL\obj\Debug\net8.0\ref\DAL.dll

@@ -1,0 +1,68 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\thiag\\Downloads\\Trabajo 5\\MaxGym-TP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{307F09A6-9271-448C-84D5-B22B64F4D230}|UI\\UI.csproj|c:\\users\\thiag\\downloads\\trabajo 5\\maxgym-tp\\ui\\gestormiembros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{307F09A6-9271-448C-84D5-B22B64F4D230}|UI\\UI.csproj|solutionrelative:ui\\gestormiembros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{307F09A6-9271-448C-84D5-B22B64F4D230}|UI\\UI.csproj|c:\\users\\thiag\\downloads\\trabajo 5\\maxgym-tp\\ui\\inscripcionclases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{307F09A6-9271-448C-84D5-B22B64F4D230}|UI\\UI.csproj|solutionrelative:ui\\inscripcionclases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{307F09A6-9271-448C-84D5-B22B64F4D230}|UI\\UI.csproj|c:\\users\\thiag\\downloads\\trabajo 5\\maxgym-tp\\ui\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{307F09A6-9271-448C-84D5-B22B64F4D230}|UI\\UI.csproj|solutionrelative:ui\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 759,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GestorMiembros.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\thiag\\Downloads\\Trabajo 5\\MaxGym-TP\\UI\\GestorMiembros.cs",
+              "RelativeDocumentMoniker": "UI\\GestorMiembros.cs",
+              "ToolTip": "C:\\Users\\thiag\\Downloads\\Trabajo 5\\MaxGym-TP\\UI\\GestorMiembros.cs [Dise\u00F1o]",
+              "RelativeToolTip": "UI\\GestorMiembros.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T22:32:35.206Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InscripcionClases.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\thiag\\Downloads\\Trabajo 5\\MaxGym-TP\\UI\\InscripcionClases.cs",
+              "RelativeDocumentMoniker": "UI\\InscripcionClases.cs",
+              "ToolTip": "C:\\Users\\thiag\\Downloads\\Trabajo 5\\MaxGym-TP\\UI\\InscripcionClases.cs [Dise\u00F1o]",
+              "RelativeToolTip": "UI\\InscripcionClases.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T22:32:08.111Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Principal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\thiag\\Downloads\\Trabajo 5\\MaxGym-TP\\UI\\Principal.cs",
+              "RelativeDocumentMoniker": "UI\\Principal.cs",
+              "ToolTip": "C:\\Users\\thiag\\Downloads\\Trabajo 5\\MaxGym-TP\\UI\\Principal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "UI\\Principal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T22:29:34.974Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
