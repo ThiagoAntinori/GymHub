@@ -76,6 +76,8 @@
             pb_ventanaNormal = new PictureBox();
             pb_guardarVentana = new PictureBox();
             pb_CerrarVentana = new PictureBox();
+            btn_cargarBorrador = new Button();
+            btn_guardarCambios = new Button();
             ((System.ComponentModel.ISupportInitialize)dgv_miembros).BeginInit();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -141,7 +143,7 @@
             btn_Agregar.ForeColor = Color.White;
             btn_Agregar.Location = new Point(250, 230);
             btn_Agregar.Name = "btn_Agregar";
-            btn_Agregar.Size = new Size(200, 31);
+            btn_Agregar.Size = new Size(200, 57);
             btn_Agregar.TabIndex = 6;
             btn_Agregar.Text = "AGREGAR";
             btn_Agregar.UseVisualStyleBackColor = false;
@@ -631,6 +633,34 @@
             pb_CerrarVentana.TabIndex = 56;
             pb_CerrarVentana.TabStop = false;
             // 
+            // btn_cargarBorrador
+            // 
+            btn_cargarBorrador.BackColor = Color.FromArgb(255, 128, 0);
+            btn_cargarBorrador.FlatStyle = FlatStyle.Popup;
+            btn_cargarBorrador.Font = new Font("Impact", 8F);
+            btn_cargarBorrador.ForeColor = Color.White;
+            btn_cargarBorrador.Location = new Point(125, 230);
+            btn_cargarBorrador.Name = "btn_cargarBorrador";
+            btn_cargarBorrador.Size = new Size(119, 25);
+            btn_cargarBorrador.TabIndex = 57;
+            btn_cargarBorrador.Text = "CARGAR AL BORRADOR";
+            btn_cargarBorrador.UseVisualStyleBackColor = false;
+            btn_cargarBorrador.Click += btn_cargarBorrador_Click;
+            // 
+            // btn_guardarCambios
+            // 
+            btn_guardarCambios.BackColor = Color.FromArgb(255, 128, 0);
+            btn_guardarCambios.FlatStyle = FlatStyle.Popup;
+            btn_guardarCambios.Font = new Font("Impact", 8F);
+            btn_guardarCambios.ForeColor = Color.White;
+            btn_guardarCambios.Location = new Point(125, 261);
+            btn_guardarCambios.Name = "btn_guardarCambios";
+            btn_guardarCambios.Size = new Size(119, 25);
+            btn_guardarCambios.TabIndex = 58;
+            btn_guardarCambios.Text = "GUARDAR CAMBIOS";
+            btn_guardarCambios.UseVisualStyleBackColor = false;
+            btn_guardarCambios.Click += btn_guardarCambios_Click;
+            // 
             // GestorMiembros
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -638,6 +668,8 @@
             BackColor = Color.FromArgb(64, 64, 64);
             BackgroundImage = Properties.Resources.Fondo;
             ClientSize = new Size(1142, 515);
+            Controls.Add(btn_guardarCambios);
+            Controls.Add(btn_cargarBorrador);
             Controls.Add(p_ventana);
             Controls.Add(panel1);
             Controls.Add(label15);
@@ -736,5 +768,7 @@
         private PictureBox pb_minimizarVentana;
         private PictureBox pictureBox5;
         private PictureBox pictureBox6;
+        private Button btn_cargarBorrador;
+        private Button btn_guardarCambios;
     }
 }

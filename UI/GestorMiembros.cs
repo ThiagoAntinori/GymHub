@@ -129,6 +129,25 @@ namespace UI
             }
         }
 
+        private void btn_cargarBorrador_Click(object sender, EventArgs e)
+        {
+            Miembro nuevoMiembro = new Miembro
+            {
+                NombreYApellido = txt_nombreApellido.Text,
+                FechaNacimiento = Convert.ToDateTime(dtp_nacimiento.Text),
+                CorreoElectronico = txt_correo.Text,
+                Membresia = new Membresia
+                {
+                    IdMembresia = Convert.ToInt32(cb_membresia.SelectedValue),
+                }
+            };
+        }
+
+        private void btn_guardarCambios_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void btn_Eliminar_Click(object sender, EventArgs e)
         {
             try
@@ -243,6 +262,8 @@ namespace UI
             pictureBox5.Visible = false;
             pb_ventanaNormal3.Visible = true;
         }
+
+       
     }
 
 }
