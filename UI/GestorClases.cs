@@ -137,7 +137,7 @@ namespace UI
                     EntrenadorACargo = txtEntrenadorModificar.Text,
                     Horario = txtHorarioModificar.Text,
                     Diadeclase = cmbDiaModificar.Text,
-                    CapacidadMaxima = Convert.ToInt32(txtCapacidadMaxima.Text)
+                    CapacidadMaxima = Convert.ToInt32(txtCapacidadMaximaModificar.Text)
                 };
                 ClaseBusiness.ModificarClase(claseAModificar);
                 actualizarVista();

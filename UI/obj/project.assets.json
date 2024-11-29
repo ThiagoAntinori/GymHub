@@ -1758,11 +1758,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\thiag\\Downloads\\Trabajo 5\\MaxGym-TP\\UI\\UI.csproj",
+      "projectUniqueName": "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\UI\\UI.csproj",
       "projectName": "UI",
-      "projectPath": "C:\\Users\\thiag\\Downloads\\Trabajo 5\\MaxGym-TP\\UI\\UI.csproj",
+      "projectPath": "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\UI\\UI.csproj",
       "packagesPath": "C:\\Users\\thiag\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\thiag\\Downloads\\Trabajo 5\\MaxGym-TP\\UI\\obj\\",
+      "outputPath": "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\UI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\thiag\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1779,11 +1779,11 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\thiag\\Downloads\\Trabajo 5\\MaxGym-TP\\BLL\\BLL.csproj": {
-              "projectPath": "C:\\Users\\thiag\\Downloads\\Trabajo 5\\MaxGym-TP\\BLL\\BLL.csproj"
+            "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\BLL\\BLL.csproj": {
+              "projectPath": "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\BLL\\BLL.csproj"
             },
-            "C:\\Users\\thiag\\Downloads\\Trabajo 5\\MaxGym-TP\\Entity\\Entity.csproj": {
-              "projectPath": "C:\\Users\\thiag\\Downloads\\Trabajo 5\\MaxGym-TP\\Entity\\Entity.csproj"
+            "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\Entity\\Entity.csproj": {
+              "projectPath": "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\Entity\\Entity.csproj"
             }
           }
         }

@@ -9,12 +9,12 @@ using System.Threading.Tasks;
 
 namespace DAL
 {
-    public class ClaseMiembroDao
+    public class InscripcionDao
     {
         private ClaseDao ClaseDao = new ClaseDao();
         private MiembroDao MiembroDao = new MiembroDao();
 
-        public void CargarClaseMiembro(ClaseMiembro claseMiembro)
+        public void CargarInscripcion(Inscripcion inscripcion)
         {
             try 
             {
@@ -24,10 +24,10 @@ namespace DAL
                     string query = "INSERT INTO CLASE_MIEMBRO (ID_CLASE, ID_MIEMBRO, FECHA_INSCRIPCION, FECHA_VENCIMIENTO) VALUES (@IdClase, @IdMiembro, @FechaInscripcion, @FechaVencimiento)";
                     using(SqlCommand cmd = new SqlCommand(query, con))
                     {
-                        cmd.Parameters.AddWithValue("@IdClase", claseMiembro.Clase.IdClase);
-                        cmd.Parameters.AddWithValue("@IdMiembro", claseMiembro.Miembro.IdMiembro);
-                        cmd.Parameters.AddWithValue("@FechaInscripcion", claseMiembro.FechaInscripcion);
-                        cmd.Parameters.AddWithValue("@FechaVencimiento", claseMiembro.FechaVencimiento);
+                        cmd.Parameters.AddWithValue("@IdClase", inscripcion.Clase.IdClase);
+                        cmd.Parameters.AddWithValue("@IdMiembro", inscripcion.Miembro.IdMiembro);
+                        cmd.Parameters.AddWithValue("@FechaInscripcion", inscripcion.FechaInscripcion);
+                        cmd.Parameters.AddWithValue("@FechaVencimiento", inscripcion.FechaVencimiento);
                         cmd.ExecuteNonQuery();
                     }
                 }
@@ -38,7 +38,7 @@ namespace DAL
             }
         }
 
-        public void EliminarClaseMiembro(int idClase, int idMiembro)
+        public void EliminarInscripcion(int idClase, int idMiembro)
         {
             try
             {
@@ -83,11 +83,11 @@ namespace DAL
             }
         }
 
-        public List<ClaseMiembro> GetAll()
+        public List<Inscripcion> GetAll()
         {
             try
             {
-                List<ClaseMiembro> listaClaseMiembros = new List<ClaseMiembro>();
+                List<Inscripcion> listaInscripciones = new List<Inscripcion>();
                 using (SqlConnection con = new SqlConnection(ConexionDB.ObtenerConexionDB()))
                 {
                     con.Open();
@@ -98,15 +98,15 @@ namespace DAL
                         {
                             while (reader.Read())
                             {
-                                ClaseMiembro claseMiembro = ClaseMiembroMapper.Map(reader);
-                                claseMiembro.Clase = ClaseDao.GetById(Convert.ToInt32(reader["ID_CLASE"].ToString()));
-                                claseMiembro.Miembro = MiembroDao.BuscarMiembroPorID(Convert.ToInt32(reader["ID_MIEMBRO"].ToString()));
-                                listaClaseMiembros.Add(claseMiembro);
+                                Inscripcion inscripcion = InscripcionMapper.Map(reader);
+                                inscripcion.Clase = ClaseDao.GetById(Convert.ToInt32(reader["ID_CLASE"].ToString()));
+                                inscripcion.Miembro = MiembroDao.BuscarMiembroPorID(Convert.ToInt32(reader["ID_MIEMBRO"].ToString()));
+                                listaInscripciones.Add(inscripcion);
                             }
                         }
                     }
                 }
-                return listaClaseMiembros;
+                return listaInscripciones;
             }
             catch (Exception ex)
             {

@@ -8,13 +8,13 @@ using System.Threading.Tasks;
 
 namespace Mapper
 {
-    public static class ClaseMiembroMapper
+    public static class InscripcionMapper
     {
-        public static ClaseMiembro Map(SqlDataReader reader)
+        public static Inscripcion Map(SqlDataReader reader)
         {
             try
             {
-                return new ClaseMiembro
+                return new Inscripcion
                 {
                     FechaInscripcion = Convert.ToDateTime(reader["FECHA_INSCRIPCION"].ToString()),
                     FechaVencimiento = Convert.ToDateTime(reader["FECHA_VENCIMIENTO"].ToString())

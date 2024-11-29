@@ -25,12 +25,19 @@ namespace UI
         {
             InscripcionClases IC = new InscripcionClases();
             IC.Show();
-            this.Hide();
+            this.SendToBack();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnInscripcion_Click_1(object sender, EventArgs e)
+        {
+            InscripcionClases IC = new InscripcionClases();
+            IC.Show();
+            this.Hide();
         }
     }
 }

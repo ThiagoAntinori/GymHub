@@ -1,133 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\",
+  "WorkspaceRootPath": "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{307F09A6-9271-448C-84D5-B22B64F4D230}|UI\\UI.csproj|C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\ui\\gestorclases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{307F09A6-9271-448C-84D5-B22B64F4D230}|UI\\UI.csproj|solutionrelative:ui\\gestorclases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{307F09A6-9271-448C-84D5-B22B64F4D230}|UI\\UI.csproj|C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\ui\\gestormiembros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{307F09A6-9271-448C-84D5-B22B64F4D230}|UI\\UI.csproj|solutionrelative:ui\\gestormiembros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{307F09A6-9271-448C-84D5-B22B64F4D230}|UI\\UI.csproj|C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\ui\\inscripcionclases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{307F09A6-9271-448C-84D5-B22B64F4D230}|UI\\UI.csproj|C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\ui\\inscripcionclases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{307F09A6-9271-448C-84D5-B22B64F4D230}|UI\\UI.csproj|solutionrelative:ui\\inscripcionclases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{307F09A6-9271-448C-84D5-B22B64F4D230}|UI\\UI.csproj|C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\ui\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{307F09A6-9271-448C-84D5-B22B64F4D230}|UI\\UI.csproj|solutionrelative:ui\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{307F09A6-9271-448C-84D5-B22B64F4D230}|UI\\UI.csproj|c:\\users\\nahuel\\downloads\\maxgym-tp\\ui\\gestorclases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{307F09A6-9271-448C-84D5-B22B64F4D230}|UI\\UI.csproj|c:\\users\\thiag\\desktop\\projects\\c# .net\\maxgym\\gymhub\\ui\\gestorclases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{307F09A6-9271-448C-84D5-B22B64F4D230}|UI\\UI.csproj|solutionrelative:ui\\gestorclases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6FAB391-4054-4DC8-A63C-A303BC2E4BAB}|BLL\\BLL.csproj|c:\\users\\nahuel\\downloads\\maxgym-tp\\bll\\clasebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6FAB391-4054-4DC8-A63C-A303BC2E4BAB}|BLL\\BLL.csproj|solutionrelative:bll\\clasebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{307F09A6-9271-448C-84D5-B22B64F4D230}|UI\\UI.csproj|c:\\users\\thiag\\desktop\\projects\\c# .net\\maxgym\\gymhub\\ui\\gestorclases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{307F09A6-9271-448C-84D5-B22B64F4D230}|UI\\UI.csproj|solutionrelative:ui\\gestorclases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBD88EAB-6F22-4496-8E47-75B11458035D}|Entity\\Entity.csproj|c:\\users\\nahuel\\downloads\\maxgym-tp\\entity\\clase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBD88EAB-6F22-4496-8E47-75B11458035D}|Entity\\Entity.csproj|solutionrelative:entity\\clase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EBD88EAB-6F22-4496-8E47-75B11458035D}|Entity\\Entity.csproj|c:\\users\\thiag\\desktop\\projects\\c# .net\\maxgym\\gymhub\\entity\\inscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBD88EAB-6F22-4496-8E47-75B11458035D}|Entity\\Entity.csproj|solutionrelative:entity\\inscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F2B406F-09C8-4B93-A5B1-0C56E570F92E}|DAL\\DAL.csproj|c:\\users\\nahuel\\downloads\\maxgym-tp\\dal\\clasedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F2B406F-09C8-4B93-A5B1-0C56E570F92E}|DAL\\DAL.csproj|solutionrelative:dal\\clasedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F2B406F-09C8-4B93-A5B1-0C56E570F92E}|DAL\\DAL.csproj|c:\\users\\nahuel\\downloads\\maxgym-tp\\dal\\miembrodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F2B406F-09C8-4B93-A5B1-0C56E570F92E}|DAL\\DAL.csproj|solutionrelative:dal\\miembrodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6FAB391-4054-4DC8-A63C-A303BC2E4BAB}|BLL\\BLL.csproj|c:\\users\\nahuel\\downloads\\maxgym-tp\\bll\\membresiabusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6FAB391-4054-4DC8-A63C-A303BC2E4BAB}|BLL\\BLL.csproj|solutionrelative:bll\\membresiabusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6FAB391-4054-4DC8-A63C-A303BC2E4BAB}|BLL\\BLL.csproj|c:\\users\\nahuel\\downloads\\maxgym-tp\\bll\\miembrobusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6FAB391-4054-4DC8-A63C-A303BC2E4BAB}|BLL\\BLL.csproj|solutionrelative:bll\\miembrobusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{307F09A6-9271-448C-84D5-B22B64F4D230}|UI\\UI.csproj|c:\\users\\nahuel\\downloads\\maxgym-tp\\ui\\inscripcionclases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{307F09A6-9271-448C-84D5-B22B64F4D230}|UI\\UI.csproj|c:\\users\\thiag\\desktop\\projects\\c# .net\\maxgym\\gymhub\\ui\\inscripcionclases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{307F09A6-9271-448C-84D5-B22B64F4D230}|UI\\UI.csproj|solutionrelative:ui\\inscripcionclases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F2B406F-09C8-4B93-A5B1-0C56E570F92E}|DAL\\DAL.csproj|c:\\users\\nahuel\\downloads\\maxgym-tp\\dal\\clasemiembrodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F2B406F-09C8-4B93-A5B1-0C56E570F92E}|DAL\\DAL.csproj|solutionrelative:dal\\clasemiembrodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D6FAB391-4054-4DC8-A63C-A303BC2E4BAB}|BLL\\BLL.csproj|c:\\users\\thiag\\desktop\\projects\\c# .net\\maxgym\\gymhub\\bll\\inscripcionbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6FAB391-4054-4DC8-A63C-A303BC2E4BAB}|BLL\\BLL.csproj|solutionrelative:bll\\inscripcionbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBD88EAB-6F22-4496-8E47-75B11458035D}|Entity\\Entity.csproj|c:\\users\\nahuel\\downloads\\maxgym-tp\\entity\\clasemiembro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBD88EAB-6F22-4496-8E47-75B11458035D}|Entity\\Entity.csproj|solutionrelative:entity\\clasemiembro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9F2B406F-09C8-4B93-A5B1-0C56E570F92E}|DAL\\DAL.csproj|c:\\users\\thiag\\desktop\\projects\\c# .net\\maxgym\\gymhub\\dal\\inscripciondao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F2B406F-09C8-4B93-A5B1-0C56E570F92E}|DAL\\DAL.csproj|solutionrelative:dal\\inscripciondao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBD88EAB-6F22-4496-8E47-75B11458035D}|Entity\\Entity.csproj|c:\\users\\nahuel\\downloads\\maxgym-tp\\entity\\membresia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBD88EAB-6F22-4496-8E47-75B11458035D}|Entity\\Entity.csproj|solutionrelative:entity\\membresia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{94757026-325A-4744-BD6E-3DDC938DBFA9}|Mapper\\Mapper.csproj|c:\\users\\thiag\\desktop\\projects\\c# .net\\maxgym\\gymhub\\mapper\\inscripcionmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94757026-325A-4744-BD6E-3DDC938DBFA9}|Mapper\\Mapper.csproj|solutionrelative:mapper\\inscripcionmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94757026-325A-4744-BD6E-3DDC938DBFA9}|Mapper\\Mapper.csproj|c:\\users\\nahuel\\downloads\\maxgym-tp\\mapper\\clasemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94757026-325A-4744-BD6E-3DDC938DBFA9}|Mapper\\Mapper.csproj|solutionrelative:mapper\\clasemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94757026-325A-4744-BD6E-3DDC938DBFA9}|Mapper\\Mapper.csproj|c:\\users\\nahuel\\downloads\\maxgym-tp\\mapper\\clasemiembromapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94757026-325A-4744-BD6E-3DDC938DBFA9}|Mapper\\Mapper.csproj|solutionrelative:mapper\\clasemiembromapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94757026-325A-4744-BD6E-3DDC938DBFA9}|Mapper\\Mapper.csproj|c:\\users\\nahuel\\downloads\\maxgym-tp\\mapper\\miembromapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94757026-325A-4744-BD6E-3DDC938DBFA9}|Mapper\\Mapper.csproj|solutionrelative:mapper\\miembromapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{307F09A6-9271-448C-84D5-B22B64F4D230}|UI\\UI.csproj|c:\\users\\nahuel\\downloads\\maxgym-tp\\ui\\gestormiembros.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{307F09A6-9271-448C-84D5-B22B64F4D230}|UI\\UI.csproj|solutionrelative:ui\\gestormiembros.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{307F09A6-9271-448C-84D5-B22B64F4D230}|UI\\UI.csproj|c:\\users\\nahuel\\downloads\\maxgym-tp\\ui\\gestormiembros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{307F09A6-9271-448C-84D5-B22B64F4D230}|UI\\UI.csproj|c:\\users\\thiag\\desktop\\projects\\c# .net\\maxgym\\gymhub\\ui\\gestormiembros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{307F09A6-9271-448C-84D5-B22B64F4D230}|UI\\UI.csproj|solutionrelative:ui\\gestormiembros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBD88EAB-6F22-4496-8E47-75B11458035D}|Entity\\Entity.csproj|c:\\users\\nahuel\\downloads\\maxgym-tp\\entity\\miembro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBD88EAB-6F22-4496-8E47-75B11458035D}|Entity\\Entity.csproj|solutionrelative:entity\\miembro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{307F09A6-9271-448C-84D5-B22B64F4D230}|UI\\UI.csproj|C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\ui\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{307F09A6-9271-448C-84D5-B22B64F4D230}|UI\\UI.csproj|solutionrelative:ui\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{307F09A6-9271-448C-84D5-B22B64F4D230}|UI\\UI.csproj|c:\\users\\nahuel\\downloads\\maxgym-tp\\ui\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{307F09A6-9271-448C-84D5-B22B64F4D230}|UI\\UI.csproj|c:\\users\\thiag\\desktop\\projects\\c# .net\\maxgym\\gymhub\\ui\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{307F09A6-9271-448C-84D5-B22B64F4D230}|UI\\UI.csproj|solutionrelative:ui\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F2B406F-09C8-4B93-A5B1-0C56E570F92E}|DAL\\DAL.csproj|c:\\users\\nahuel\\downloads\\maxgym-tp\\dal\\conexiondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F2B406F-09C8-4B93-A5B1-0C56E570F92E}|DAL\\DAL.csproj|solutionrelative:dal\\conexiondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F2B406F-09C8-4B93-A5B1-0C56E570F92E}|DAL\\DAL.csproj|c:\\users\\nahuel\\downloads\\maxgym-tp\\dal\\membresiadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F2B406F-09C8-4B93-A5B1-0C56E570F92E}|DAL\\DAL.csproj|solutionrelative:dal\\membresiadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{307F09A6-9271-448C-84D5-B22B64F4D230}|UI\\UI.csproj|c:\\users\\nahuel\\downloads\\maxgym-tp\\ui\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{307F09A6-9271-448C-84D5-B22B64F4D230}|UI\\UI.csproj|solutionrelative:ui\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{307F09A6-9271-448C-84D5-B22B64F4D230}|UI\\UI.csproj|c:\\users\\nahuel\\downloads\\maxgym-tp\\ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{307F09A6-9271-448C-84D5-B22B64F4D230}|UI\\UI.csproj|solutionrelative:ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{307F09A6-9271-448C-84D5-B22B64F4D230}|UI\\UI.csproj|c:\\users\\nahuel\\downloads\\maxgym-tp\\ui\\gestorclases.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{307F09A6-9271-448C-84D5-B22B64F4D230}|UI\\UI.csproj|solutionrelative:ui\\gestorclases.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6FAB391-4054-4DC8-A63C-A303BC2E4BAB}|BLL\\BLL.csproj|c:\\users\\nahuel\\downloads\\maxgym-tp\\bll\\bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{D6FAB391-4054-4DC8-A63C-A303BC2E4BAB}|BLL\\BLL.csproj|solutionrelative:bll\\bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F2B406F-09C8-4B93-A5B1-0C56E570F92E}|DAL\\DAL.csproj|c:\\users\\nahuel\\downloads\\maxgym-tp\\dal\\dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{9F2B406F-09C8-4B93-A5B1-0C56E570F92E}|DAL\\DAL.csproj|solutionrelative:dal\\dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94757026-325A-4744-BD6E-3DDC938DBFA9}|Mapper\\Mapper.csproj|c:\\users\\nahuel\\downloads\\maxgym-tp\\mapper\\mapper.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{94757026-325A-4744-BD6E-3DDC938DBFA9}|Mapper\\Mapper.csproj|solutionrelative:mapper\\mapper.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{307F09A6-9271-448C-84D5-B22B64F4D230}|UI\\UI.csproj|c:\\users\\nahuel\\downloads\\maxgym-tp\\ui\\ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{307F09A6-9271-448C-84D5-B22B64F4D230}|UI\\UI.csproj|solutionrelative:ui\\ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\thiag\\Downloads\\Trabajo 3\\Trabajo\\UI\\Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -137,397 +54,147 @@
       "DocumentGroups": [
         {
           "DockedHeight": 759,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "GestorClases.cs",
-              "DocumentMoniker": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\UI\\GestorClases.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\UI\\GestorClases.cs",
               "RelativeDocumentMoniker": "UI\\GestorClases.cs",
-              "ToolTip": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\UI\\GestorClases.cs",
+              "ToolTip": "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\UI\\GestorClases.cs",
               "RelativeToolTip": "UI\\GestorClases.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwCoAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAcwIsAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T15:13:31.329Z",
-              "IsPinned": true,
+              "WhenOpened": "2024-11-29T04:23:27.804Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Clase.cs",
-              "DocumentMoniker": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\Entity\\Clase.cs",
-              "RelativeDocumentMoniker": "Entity\\Clase.cs",
-              "ToolTip": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\Entity\\Clase.cs",
-              "RelativeToolTip": "Entity\\Clase.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T03:28:00.377Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "InscripcionClases.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\UI\\InscripcionClases.cs",
-              "RelativeDocumentMoniker": "UI\\InscripcionClases.cs",
-              "ToolTip": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\UI\\InscripcionClases.cs [Dise\u00F1o]",
-              "RelativeToolTip": "UI\\InscripcionClases.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T19:37:38.6Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GestorMiembros.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\UI\\GestorMiembros.cs",
-              "RelativeDocumentMoniker": "UI\\GestorMiembros.cs",
-              "ToolTip": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\UI\\GestorMiembros.cs [Dise\u00F1o]",
-              "RelativeToolTip": "UI\\GestorMiembros.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T14:31:33.665Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "GestorClases.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\UI\\GestorClases.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\UI\\GestorClases.cs",
               "RelativeDocumentMoniker": "UI\\GestorClases.cs",
-              "ToolTip": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\UI\\GestorClases.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\UI\\GestorClases.cs [Dise\u00F1o]",
               "RelativeToolTip": "UI\\GestorClases.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T12:08:48.646Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Principal.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\UI\\Principal.cs",
-              "RelativeDocumentMoniker": "UI\\Principal.cs",
-              "ToolTip": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\UI\\Principal.cs [Dise\u00F1o]",
-              "RelativeToolTip": "UI\\Principal.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T02:21:30.453Z",
+              "WhenOpened": "2024-11-29T04:23:05.236Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ClaseBusiness.cs",
-              "DocumentMoniker": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\BLL\\ClaseBusiness.cs",
-              "RelativeDocumentMoniker": "BLL\\ClaseBusiness.cs",
-              "ToolTip": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\BLL\\ClaseBusiness.cs",
-              "RelativeToolTip": "BLL\\ClaseBusiness.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAdAAAAAAAAAA==",
+              "Title": "InscripcionBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\BLL\\InscripcionBusiness.cs",
+              "RelativeDocumentMoniker": "BLL\\InscripcionBusiness.cs",
+              "ToolTip": "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\BLL\\InscripcionBusiness.cs",
+              "RelativeToolTip": "BLL\\InscripcionBusiness.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACMAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T14:58:03.735Z"
+              "WhenOpened": "2024-11-29T01:03:12.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InscripcionClases.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\UI\\InscripcionClases.cs",
+              "RelativeDocumentMoniker": "UI\\InscripcionClases.cs",
+              "ToolTip": "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\UI\\InscripcionClases.cs [Dise\u00F1o]",
+              "RelativeToolTip": "UI\\InscripcionClases.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T22:32:08.111Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InscripcionClases.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\UI\\InscripcionClases.cs",
+              "RelativeDocumentMoniker": "UI\\InscripcionClases.cs",
+              "ToolTip": "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\UI\\InscripcionClases.cs",
+              "RelativeToolTip": "UI\\InscripcionClases.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAGAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T00:26:58.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Inscripcion.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\Entity\\Inscripcion.cs",
+              "RelativeDocumentMoniker": "Entity\\Inscripcion.cs",
+              "ToolTip": "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\Entity\\Inscripcion.cs",
+              "RelativeToolTip": "Entity\\Inscripcion.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABQAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T00:59:33.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "InscripcionDao.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\DAL\\InscripcionDao.cs",
+              "RelativeDocumentMoniker": "DAL\\InscripcionDao.cs",
+              "ToolTip": "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\DAL\\InscripcionDao.cs",
+              "RelativeToolTip": "DAL\\InscripcionDao.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAIwGQAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:00:57.939Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "ClaseDao.cs",
-              "DocumentMoniker": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\DAL\\ClaseDao.cs",
-              "RelativeDocumentMoniker": "DAL\\ClaseDao.cs",
-              "ToolTip": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\DAL\\ClaseDao.cs",
-              "RelativeToolTip": "DAL\\ClaseDao.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAA5wBwAAAAcAAAAAAAAAA==",
+              "Title": "InscripcionMapper.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\Mapper\\InscripcionMapper.cs",
+              "RelativeDocumentMoniker": "Mapper\\InscripcionMapper.cs",
+              "ToolTip": "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\Mapper\\InscripcionMapper.cs",
+              "RelativeToolTip": "Mapper\\InscripcionMapper.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T14:40:10.195Z"
+              "WhenOpened": "2024-11-29T01:09:44.811Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "MiembroDao.cs",
-              "DocumentMoniker": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\DAL\\MiembroDao.cs",
-              "RelativeDocumentMoniker": "DAL\\MiembroDao.cs",
-              "ToolTip": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\DAL\\MiembroDao.cs",
-              "RelativeToolTip": "DAL\\MiembroDao.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAwH4AAAAeAAAAAAAAAA==",
+              "Title": "GestorMiembros.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\UI\\GestorMiembros.cs",
+              "RelativeDocumentMoniker": "UI\\GestorMiembros.cs",
+              "ToolTip": "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\UI\\GestorMiembros.cs",
+              "RelativeToolTip": "UI\\GestorMiembros.cs",
+              "ViewState": "AgIAAMsAAAAAAAAAAAAwwNEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T03:30:29.011Z"
+              "WhenOpened": "2024-11-29T00:27:21.767Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "MembresiaBusiness.cs",
-              "DocumentMoniker": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\BLL\\MembresiaBusiness.cs",
-              "RelativeDocumentMoniker": "BLL\\MembresiaBusiness.cs",
-              "ToolTip": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\BLL\\MembresiaBusiness.cs",
-              "RelativeToolTip": "BLL\\MembresiaBusiness.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAANAAAAAAAAAA==",
+              "Title": "Principal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\UI\\Principal.cs",
+              "RelativeDocumentMoniker": "UI\\Principal.cs",
+              "ToolTip": "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\UI\\Principal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "UI\\Principal.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T12:26:39.551Z"
+              "WhenOpened": "2024-11-28T22:29:34.974Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "MiembroBusiness.cs",
-              "DocumentMoniker": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\BLL\\MiembroBusiness.cs",
-              "RelativeDocumentMoniker": "BLL\\MiembroBusiness.cs",
-              "ToolTip": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\BLL\\MiembroBusiness.cs",
-              "RelativeToolTip": "BLL\\MiembroBusiness.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAuwJIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T11:51:15.899Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "InscripcionClases.cs",
-              "DocumentMoniker": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\UI\\InscripcionClases.cs",
-              "RelativeDocumentMoniker": "UI\\InscripcionClases.cs",
-              "ToolTip": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\UI\\InscripcionClases.cs",
-              "RelativeToolTip": "UI\\InscripcionClases.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAkwBUAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T19:38:49.704Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ClaseMiembroDao.cs",
-              "DocumentMoniker": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\DAL\\ClaseMiembroDao.cs",
-              "RelativeDocumentMoniker": "DAL\\ClaseMiembroDao.cs",
-              "ToolTip": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\DAL\\ClaseMiembroDao.cs",
-              "RelativeToolTip": "DAL\\ClaseMiembroDao.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T19:43:18.412Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ClaseMiembro.cs",
-              "DocumentMoniker": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\Entity\\ClaseMiembro.cs",
-              "RelativeDocumentMoniker": "Entity\\ClaseMiembro.cs",
-              "ToolTip": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\Entity\\ClaseMiembro.cs",
-              "RelativeToolTip": "Entity\\ClaseMiembro.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T03:29:02.244Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Membresia.cs",
-              "DocumentMoniker": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\Entity\\Membresia.cs",
-              "RelativeDocumentMoniker": "Entity\\Membresia.cs",
-              "ToolTip": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\Entity\\Membresia.cs",
-              "RelativeToolTip": "Entity\\Membresia.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T03:26:50.014Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ClaseMapper.cs",
-              "DocumentMoniker": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\Mapper\\ClaseMapper.cs",
-              "RelativeDocumentMoniker": "Mapper\\ClaseMapper.cs",
-              "ToolTip": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\Mapper\\ClaseMapper.cs",
-              "RelativeToolTip": "Mapper\\ClaseMapper.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAABcAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T14:39:03.642Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ClaseMiembroMapper.cs",
-              "DocumentMoniker": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\Mapper\\ClaseMiembroMapper.cs",
-              "RelativeDocumentMoniker": "Mapper\\ClaseMiembroMapper.cs",
-              "ToolTip": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\Mapper\\ClaseMiembroMapper.cs",
-              "RelativeToolTip": "Mapper\\ClaseMiembroMapper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T19:39:58.858Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "MiembroMapper.cs",
-              "DocumentMoniker": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\Mapper\\MiembroMapper.cs",
-              "RelativeDocumentMoniker": "Mapper\\MiembroMapper.cs",
-              "ToolTip": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\Mapper\\MiembroMapper.cs",
-              "RelativeToolTip": "Mapper\\MiembroMapper.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T11:59:50.263Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "GestorMiembros.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\UI\\GestorMiembros.Designer.cs",
-              "RelativeDocumentMoniker": "UI\\GestorMiembros.Designer.cs",
-              "ToolTip": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\UI\\GestorMiembros.Designer.cs",
-              "RelativeToolTip": "UI\\GestorMiembros.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkCAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T12:06:48.697Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "GestorMiembros.cs",
-              "DocumentMoniker": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\UI\\GestorMiembros.cs",
-              "RelativeDocumentMoniker": "UI\\GestorMiembros.cs",
-              "ToolTip": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\UI\\GestorMiembros.cs",
-              "RelativeToolTip": "UI\\GestorMiembros.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAowC4AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T12:06:19.239Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Miembro.cs",
-              "DocumentMoniker": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\Entity\\Miembro.cs",
-              "RelativeDocumentMoniker": "Entity\\Miembro.cs",
-              "ToolTip": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\Entity\\Miembro.cs",
-              "RelativeToolTip": "Entity\\Miembro.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T03:24:45.077Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
               "Title": "Principal.cs",
-              "DocumentMoniker": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\UI\\Principal.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\UI\\Principal.cs",
               "RelativeDocumentMoniker": "UI\\Principal.cs",
-              "ToolTip": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\UI\\Principal.cs",
+              "ToolTip": "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\UI\\Principal.cs",
               "RelativeToolTip": "UI\\Principal.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAADwvyAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowBsAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T12:22:13.867Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "ConexionDB.cs",
-              "DocumentMoniker": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\DAL\\ConexionDB.cs",
-              "RelativeDocumentMoniker": "DAL\\ConexionDB.cs",
-              "ToolTip": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\DAL\\ConexionDB.cs",
-              "RelativeToolTip": "DAL\\ConexionDB.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T03:37:27.646Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "MembresiaDao.cs",
-              "DocumentMoniker": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\DAL\\MembresiaDao.cs",
-              "RelativeDocumentMoniker": "DAL\\MembresiaDao.cs",
-              "ToolTip": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\DAL\\MembresiaDao.cs",
-              "RelativeToolTip": "DAL\\MembresiaDao.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwCoAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T12:24:44.71Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\UI\\App.config",
-              "RelativeDocumentMoniker": "UI\\App.config",
-              "ToolTip": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\UI\\App.config",
-              "RelativeToolTip": "UI\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-11-28T16:56:14.493Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\UI\\Program.cs",
-              "RelativeDocumentMoniker": "UI\\Program.cs",
-              "ToolTip": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\UI\\Program.cs",
-              "RelativeToolTip": "UI\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAowA0AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T16:00:49.527Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "GestorClases.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\UI\\GestorClases.Designer.cs",
-              "RelativeDocumentMoniker": "UI\\GestorClases.Designer.cs",
-              "ToolTip": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\UI\\GestorClases.Designer.cs",
-              "RelativeToolTip": "UI\\GestorClases.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAB5wBYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T15:10:27.479Z",
+              "WhenOpened": "2024-11-29T00:50:19.287Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "DAL.csproj",
-              "DocumentMoniker": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\DAL\\DAL.csproj",
-              "RelativeDocumentMoniker": "DAL\\DAL.csproj",
-              "ToolTip": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\DAL\\DAL.csproj",
-              "RelativeToolTip": "DAL\\DAL.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-28T03:23:27.752Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "BLL.csproj",
-              "DocumentMoniker": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\BLL\\BLL.csproj",
-              "RelativeDocumentMoniker": "BLL\\BLL.csproj",
-              "ToolTip": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\BLL\\BLL.csproj",
-              "RelativeToolTip": "BLL\\BLL.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-28T03:24:09.796Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Mapper.csproj",
-              "DocumentMoniker": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\Mapper\\Mapper.csproj",
-              "RelativeDocumentMoniker": "Mapper\\Mapper.csproj",
-              "ToolTip": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\Mapper\\Mapper.csproj",
-              "RelativeToolTip": "Mapper\\Mapper.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-28T03:22:50.001Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "UI.csproj",
-              "DocumentMoniker": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\UI\\UI.csproj",
-              "RelativeDocumentMoniker": "UI\\UI.csproj",
-              "ToolTip": "C:\\Users\\Nahuel\\Downloads\\MaxGym-TP\\UI\\UI.csproj",
-              "RelativeToolTip": "UI\\UI.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-28T03:22:19.029Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\thiag\\Downloads\\Trabajo 3\\Trabajo\\UI\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\thiag\\Downloads\\Trabajo 3\\Trabajo\\UI\\Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\thiag\\Downloads\\Trabajo 3\\Trabajo\\UI\\Form1.Designer.cs",
-              "RelativeToolTip": "..\\..\\..\\thiag\\Downloads\\Trabajo 3\\Trabajo\\UI\\Form1.Designer.cs",
-              "ViewState": "AgIAACQBAAAAAAAAAAAYwD8BAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T12:06:57.376Z"
             }
           ]
         }

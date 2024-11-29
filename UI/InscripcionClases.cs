@@ -19,7 +19,7 @@ namespace UI
             InitializeComponent();
         }
 
-        ClaseMiembroBusiness ClaseMiembroBusiness = new ClaseMiembroBusiness();
+        InscripcionBusiness ClaseMiembroBusiness = new InscripcionBusiness();
         ClaseBusiness ClaseBusiness = new ClaseBusiness();
         MiembroBusiness MiembroBusiness = new MiembroBusiness();
 
@@ -28,7 +28,7 @@ namespace UI
             actualizarVista();
         }
 
-        private void actualizarDgv(List<ClaseMiembro> listaClaseMiembros)
+        private void actualizarDgv(List<Inscripcion> listaClaseMiembros)
         {
             try
             {
@@ -96,13 +96,13 @@ namespace UI
         {
             try
             {
-                ClaseMiembro claseMiembro = new ClaseMiembro
+                Inscripcion claseMiembro = new Inscripcion
                 {
                     Clase = ClaseBusiness.GetById(Convert.ToInt32(cmbClaseInscribir.SelectedValue)),
                     Miembro = MiembroBusiness.BuscarMiembroPorId(Convert.ToInt32(cmbMiembroInscribir.SelectedValue)),
                     FechaVencimiento = dtpVencimiento.Value
                 };
-                ClaseMiembroBusiness.CargarClaseMiembro(claseMiembro);
+                ClaseMiembroBusiness.CargarInscripcion(claseMiembro);
                 actualizarVista();
                 MessageBox.Show($"Se inscribió al miembro {claseMiembro.Miembro.NombreYApellido} a la clase {claseMiembro.Clase.Descripcion}");
             }
@@ -132,7 +132,7 @@ namespace UI
             {
                 if (MessageBox.Show($"¿Desea eliminar la inscripción del miembro {txtIdMiembroEliminar.Text} a la clase {txtIdClaseEliminar.Text}?", "Atención", MessageBoxButtons.YesNo) == DialogResult.Yes)
                 {
-                    ClaseMiembroBusiness.EliminarClaseMiembro(Convert.ToInt32(txtIdClaseEliminar.Text), Convert.ToInt32(txtIdMiembroEliminar.Text));
+                    ClaseMiembroBusiness.EliminarInscripcion(Convert.ToInt32(txtIdClaseEliminar.Text), Convert.ToInt32(txtIdMiembroEliminar.Text));
                     actualizarVista();
                     MessageBox.Show("Se eliminó la inscripción correctamente");
                 }
@@ -177,6 +177,42 @@ namespace UI
             {
                 throw;
             }
+        }
+
+        private void Mouse_Enter_PB(object sender, EventArgs e)
+        {
+            this.Cursor = Cursors.Hand;
+        }
+
+        private void Mouse_Leave_PB(object sender, EventArgs e)
+        {
+            this.Cursor = Cursors.Default;
+        }
+
+        private void pb_home_Click(object sender, EventArgs e)
+        {
+            Principal form = new Principal();
+            form.Show();
+            this.Close();
+        }
+
+        private void pb_miembros_Click(object sender, EventArgs e)
+        {
+            GestorMiembros form = new GestorMiembros();
+            form.Show();
+            this.Close();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            GestorClases form = new GestorClases();
+            form.Show();
+            this.Close();
+        }
+
+        private void Boton_Salir_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\thiag\\Downloads\\Trabajo 5\\MaxGym-TP\\Entity\\Entity.csproj",
+      "projectUniqueName": "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\Entity\\Entity.csproj",
       "projectName": "Entity",
-      "projectPath": "C:\\Users\\thiag\\Downloads\\Trabajo 5\\MaxGym-TP\\Entity\\Entity.csproj",
+      "projectPath": "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\Entity\\Entity.csproj",
       "packagesPath": "C:\\Users\\thiag\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\thiag\\Downloads\\Trabajo 5\\MaxGym-TP\\Entity\\obj\\",
+      "outputPath": "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\Entity\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\thiag\\AppData\\Roaming\\NuGet\\NuGet.Config",

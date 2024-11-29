@@ -32,13 +32,13 @@
             label1 = new Label();
             btnMiembros = new Button();
             btnClases = new Button();
-            btnInscripcion = new Button();
             label2 = new Label();
             pictureBox1 = new PictureBox();
             label3 = new Label();
             label4 = new Label();
             pb_miembros = new PictureBox();
             pictureBox2 = new PictureBox();
+            btnInscripcion = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pb_miembros).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -83,17 +83,6 @@
             btnClases.Text = "GESTIONAR CLASES";
             btnClases.UseVisualStyleBackColor = false;
             btnClases.Click += btnClases_Click;
-            // 
-            // btnInscripcion
-            // 
-            btnInscripcion.Font = new Font("Impact", 12F);
-            btnInscripcion.Location = new Point(487, 282);
-            btnInscripcion.Name = "btnInscripcion";
-            btnInscripcion.Size = new Size(169, 39);
-            btnInscripcion.TabIndex = 3;
-            btnInscripcion.Text = "INSCRIPCION A CLASES";
-            btnInscripcion.UseVisualStyleBackColor = true;
-            btnInscripcion.Click += btnInscripcion_Click;
             // 
             // label2
             // 
@@ -164,6 +153,20 @@
             pictureBox2.TabIndex = 53;
             pictureBox2.TabStop = false;
             // 
+            // btnInscripcion
+            // 
+            btnInscripcion.BackColor = Color.ForestGreen;
+            btnInscripcion.FlatStyle = FlatStyle.Popup;
+            btnInscripcion.Font = new Font("Impact", 12F);
+            btnInscripcion.ForeColor = Color.White;
+            btnInscripcion.Location = new Point(480, 282);
+            btnInscripcion.Name = "btnInscripcion";
+            btnInscripcion.Size = new Size(169, 39);
+            btnInscripcion.TabIndex = 54;
+            btnInscripcion.Text = "INSCRIPCIÓN A CLASES";
+            btnInscripcion.UseVisualStyleBackColor = false;
+            btnInscripcion.Click += btnInscripcion_Click_1;
+            // 
             // Principal
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -171,13 +174,13 @@
             BackColor = Color.FromArgb(64, 64, 64);
             BackgroundImage = Properties.Resources.Fondo;
             ClientSize = new Size(683, 442);
+            Controls.Add(btnInscripcion);
             Controls.Add(pictureBox2);
             Controls.Add(pb_miembros);
             Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(pictureBox1);
             Controls.Add(label2);
-            Controls.Add(btnInscripcion);
             Controls.Add(btnClases);
             Controls.Add(btnMiembros);
             Controls.Add(label1);
@@ -197,12 +200,12 @@
         private Label label1;
         private Button btnMiembros;
         private Button btnClases;
-        private Button btnInscripcion;
         private Label label2;
         private PictureBox pictureBox1;
         private Label label3;
         private Label label4;
         private PictureBox pb_miembros;
         private PictureBox pictureBox2;
+        private Button btnInscripcion;
     }
 }

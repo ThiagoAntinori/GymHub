@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\thiag\\Downloads\\Trabajo 5\\MaxGym-TP\\DAL\\DAL.csproj": {}
+    "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\DAL\\DAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\thiag\\Downloads\\Trabajo 5\\MaxGym-TP\\DAL\\DAL.csproj": {
+    "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thiag\\Downloads\\Trabajo 5\\MaxGym-TP\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "C:\\Users\\thiag\\Downloads\\Trabajo 5\\MaxGym-TP\\DAL\\DAL.csproj",
+        "projectPath": "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\thiag\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thiag\\Downloads\\Trabajo 5\\MaxGym-TP\\DAL\\obj\\",
+        "outputPath": "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\thiag\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\thiag\\Downloads\\Trabajo 5\\MaxGym-TP\\Entity\\Entity.csproj": {
-                "projectPath": "C:\\Users\\thiag\\Downloads\\Trabajo 5\\MaxGym-TP\\Entity\\Entity.csproj"
+              "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\Entity\\Entity.csproj"
               },
-              "C:\\Users\\thiag\\Downloads\\Trabajo 5\\MaxGym-TP\\Mapper\\Mapper.csproj": {
-                "projectPath": "C:\\Users\\thiag\\Downloads\\Trabajo 5\\MaxGym-TP\\Mapper\\Mapper.csproj"
+              "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\Mapper\\Mapper.csproj": {
+                "projectPath": "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\Mapper\\Mapper.csproj"
               }
             }
           }
@@ -81,14 +81,14 @@
         }
       }
     },
-    "C:\\Users\\thiag\\Downloads\\Trabajo 5\\MaxGym-TP\\Entity\\Entity.csproj": {
+    "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\Entity\\Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thiag\\Downloads\\Trabajo 5\\MaxGym-TP\\Entity\\Entity.csproj",
+        "projectUniqueName": "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\Entity\\Entity.csproj",
         "projectName": "Entity",
-        "projectPath": "C:\\Users\\thiag\\Downloads\\Trabajo 5\\MaxGym-TP\\Entity\\Entity.csproj",
+        "projectPath": "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\Entity\\Entity.csproj",
         "packagesPath": "C:\\Users\\thiag\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thiag\\Downloads\\Trabajo 5\\MaxGym-TP\\Entity\\obj\\",
+        "outputPath": "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\thiag\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -141,14 +141,14 @@
         }
       }
     },
-    "C:\\Users\\thiag\\Downloads\\Trabajo 5\\MaxGym-TP\\Mapper\\Mapper.csproj": {
+    "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\Mapper\\Mapper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thiag\\Downloads\\Trabajo 5\\MaxGym-TP\\Mapper\\Mapper.csproj",
+        "projectUniqueName": "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\Mapper\\Mapper.csproj",
         "projectName": "Mapper",
-        "projectPath": "C:\\Users\\thiag\\Downloads\\Trabajo 5\\MaxGym-TP\\Mapper\\Mapper.csproj",
+        "projectPath": "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\Mapper\\Mapper.csproj",
         "packagesPath": "C:\\Users\\thiag\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thiag\\Downloads\\Trabajo 5\\MaxGym-TP\\Mapper\\obj\\",
+        "outputPath": "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\Mapper\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\thiag\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -165,8 +165,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\thiag\\Downloads\\Trabajo 5\\MaxGym-TP\\Entity\\Entity.csproj": {
-                "projectPath": "C:\\Users\\thiag\\Downloads\\Trabajo 5\\MaxGym-TP\\Entity\\Entity.csproj"
+              "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\Entity\\Entity.csproj"
               }
             }
           }
