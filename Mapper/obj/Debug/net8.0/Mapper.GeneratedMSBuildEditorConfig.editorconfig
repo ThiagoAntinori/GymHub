@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Mapper
-build_property.ProjectDir = C:\Users\thiag\Desktop\PROJECTS\C# .NET\GymHub\GymHub\Mapper\
+build_property.ProjectDir = C:\N\GymHub\Mapper\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

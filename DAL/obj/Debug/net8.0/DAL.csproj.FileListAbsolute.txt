@@ -50,3 +50,21 @@ C:\Users\thiag\Desktop\PROJECTS\C# .NET\MaxGym\GymHub\DAL\obj\Debug\net8.0\DAL.d
 C:\Users\thiag\Desktop\PROJECTS\C# .NET\MaxGym\GymHub\DAL\obj\Debug\net8.0\refint\DAL.dll
 C:\Users\thiag\Desktop\PROJECTS\C# .NET\MaxGym\GymHub\DAL\obj\Debug\net8.0\DAL.pdb
 C:\Users\thiag\Desktop\PROJECTS\C# .NET\MaxGym\GymHub\DAL\obj\Debug\net8.0\ref\DAL.dll
+C:\N\GymHub\DAL\bin\Debug\net8.0\DAL.deps.json
+C:\N\GymHub\DAL\bin\Debug\net8.0\DAL.dll
+C:\N\GymHub\DAL\bin\Debug\net8.0\DAL.pdb
+C:\N\GymHub\DAL\bin\Debug\net8.0\Entity.dll
+C:\N\GymHub\DAL\bin\Debug\net8.0\Mapper.dll
+C:\N\GymHub\DAL\bin\Debug\net8.0\Entity.pdb
+C:\N\GymHub\DAL\bin\Debug\net8.0\Mapper.pdb
+C:\N\GymHub\DAL\obj\Debug\net8.0\DAL.csproj.AssemblyReference.cache
+C:\N\GymHub\DAL\obj\Debug\net8.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\N\GymHub\DAL\obj\Debug\net8.0\DAL.AssemblyInfoInputs.cache
+C:\N\GymHub\DAL\obj\Debug\net8.0\DAL.AssemblyInfo.cs
+C:\N\GymHub\DAL\obj\Debug\net8.0\DAL.csproj.CoreCompileInputs.cache
+C:\N\GymHub\DAL\obj\Debug\net8.0\DAL.sourcelink.json
+C:\N\GymHub\DAL\obj\Debug\net8.0\DAL.csproj.Up2Date
+C:\N\GymHub\DAL\obj\Debug\net8.0\DAL.dll
+C:\N\GymHub\DAL\obj\Debug\net8.0\refint\DAL.dll
+C:\N\GymHub\DAL\obj\Debug\net8.0\DAL.pdb
+C:\N\GymHub\DAL\obj\Debug\net8.0\ref\DAL.dll

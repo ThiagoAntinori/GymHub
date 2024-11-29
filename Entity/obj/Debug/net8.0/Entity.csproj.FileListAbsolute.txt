@@ -32,3 +32,15 @@ C:\Users\thiag\Desktop\PROJECTS\C# .NET\MaxGym\GymHub\Entity\obj\Debug\net8.0\En
 C:\Users\thiag\Desktop\PROJECTS\C# .NET\MaxGym\GymHub\Entity\obj\Debug\net8.0\refint\Entity.dll
 C:\Users\thiag\Desktop\PROJECTS\C# .NET\MaxGym\GymHub\Entity\obj\Debug\net8.0\Entity.pdb
 C:\Users\thiag\Desktop\PROJECTS\C# .NET\MaxGym\GymHub\Entity\obj\Debug\net8.0\ref\Entity.dll
+C:\N\GymHub\Entity\bin\Debug\net8.0\Entity.deps.json
+C:\N\GymHub\Entity\bin\Debug\net8.0\Entity.dll
+C:\N\GymHub\Entity\bin\Debug\net8.0\Entity.pdb
+C:\N\GymHub\Entity\obj\Debug\net8.0\Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\N\GymHub\Entity\obj\Debug\net8.0\Entity.AssemblyInfoInputs.cache
+C:\N\GymHub\Entity\obj\Debug\net8.0\Entity.AssemblyInfo.cs
+C:\N\GymHub\Entity\obj\Debug\net8.0\Entity.csproj.CoreCompileInputs.cache
+C:\N\GymHub\Entity\obj\Debug\net8.0\Entity.sourcelink.json
+C:\N\GymHub\Entity\obj\Debug\net8.0\Entity.dll
+C:\N\GymHub\Entity\obj\Debug\net8.0\refint\Entity.dll
+C:\N\GymHub\Entity\obj\Debug\net8.0\Entity.pdb
+C:\N\GymHub\Entity\obj\Debug\net8.0\ref\Entity.dll

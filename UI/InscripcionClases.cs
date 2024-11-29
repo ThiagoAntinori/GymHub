@@ -6,6 +6,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -25,6 +26,7 @@ namespace UI
 
         private void InscripcionClases_Load(object sender, EventArgs e)
         {
+            pb_guardarVentana2.Visible = false;
             actualizarVista();
         }
 
@@ -95,7 +97,7 @@ namespace UI
                 actualizarComboMiembro(cmbMiembroFiltrar);
                 limpiarCampos();
             }
-            catch(Exception ex) { throw; }
+            catch (Exception ex) { throw; }
         }
 
         private void btnAgregar_Click(object sender, EventArgs e)
@@ -185,16 +187,19 @@ namespace UI
             }
         }
 
-        private void Mouse_Enter_PB(object sender, EventArgs e)
+        //Mover Panel de arriba
+        [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
+        private extern static void ReleaseCapture();
+        [DllImport("user32.DLL", EntryPoint = "SendMessage")]
+        private extern static void SendMessage(System.IntPtr hWnd, int wMsg, int wParam, int lParam);
+
+        private void MoverPanel(object sender, MouseEventArgs e)
         {
-            this.Cursor = Cursors.Hand;
+            ReleaseCapture();
+            SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
 
-        private void Mouse_Leave_PB(object sender, EventArgs e)
-        {
-            this.Cursor = Cursors.Default;
-        }
-
+        //Botones del Panel Laterales
         private void pb_home_Click(object sender, EventArgs e)
         {
             Principal form = new Principal();
@@ -216,9 +221,29 @@ namespace UI
             this.Close();
         }
 
-        private void Boton_Salir_Click(object sender, EventArgs e)
+        //Botones del panel de arriba
+        private void pb_cerrarVentana2_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void pb_minimzarVentana2_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void pb_maximizarVentana2_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Maximized;
+            pb_maximizarVentana2.Visible = false;
+            pb_guardarVentana2.Visible = true;
+        }
+
+        private void pb_guardarVentana2_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Normal;
+            pb_maximizarVentana2.Visible = true;
+            pb_guardarVentana2.Visible = false;
         }
     }
 }

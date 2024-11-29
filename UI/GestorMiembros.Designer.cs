@@ -60,7 +60,6 @@
             label14 = new Label();
             label15 = new Label();
             panel1 = new Panel();
-            Boton_Salir = new Label();
             label19 = new Label();
             pictureBox2 = new PictureBox();
             label18 = new Label();
@@ -69,12 +68,28 @@
             pictureBox1 = new PictureBox();
             pb_miembros = new PictureBox();
             pb_home = new PictureBox();
+            p_ventana = new Panel();
+            pb_ventanaNormal3 = new PictureBox();
+            pb_minimizarVentana = new PictureBox();
+            pictureBox5 = new PictureBox();
+            pictureBox6 = new PictureBox();
+            pb_ventanaNormal = new PictureBox();
+            pb_guardarVentana = new PictureBox();
+            pb_CerrarVentana = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)dgv_miembros).BeginInit();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pb_miembros).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pb_home).BeginInit();
+            p_ventana.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pb_ventanaNormal3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pb_minimizarVentana).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pb_ventanaNormal).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pb_guardarVentana).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pb_CerrarVentana).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -83,7 +98,7 @@
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Impact", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.White;
-            label1.Location = new Point(165, 169);
+            label1.Location = new Point(164, 191);
             label1.Name = "label1";
             label1.Size = new Size(86, 20);
             label1.TabIndex = 14;
@@ -92,28 +107,28 @@
             // cb_membresia
             // 
             cb_membresia.FormattingEnabled = true;
-            cb_membresia.Location = new Point(251, 168);
+            cb_membresia.Location = new Point(250, 190);
             cb_membresia.Name = "cb_membresia";
             cb_membresia.Size = new Size(200, 23);
             cb_membresia.TabIndex = 13;
             // 
             // dtp_nacimiento
             // 
-            dtp_nacimiento.Location = new Point(251, 107);
+            dtp_nacimiento.Location = new Point(250, 129);
             dtp_nacimiento.Name = "dtp_nacimiento";
             dtp_nacimiento.Size = new Size(200, 23);
             dtp_nacimiento.TabIndex = 12;
             // 
             // txt_nombreApellido
             // 
-            txt_nombreApellido.Location = new Point(251, 74);
+            txt_nombreApellido.Location = new Point(250, 96);
             txt_nombreApellido.Name = "txt_nombreApellido";
             txt_nombreApellido.Size = new Size(200, 23);
             txt_nombreApellido.TabIndex = 9;
             // 
             // txt_correo
             // 
-            txt_correo.Location = new Point(251, 138);
+            txt_correo.Location = new Point(250, 160);
             txt_correo.Name = "txt_correo";
             txt_correo.Size = new Size(200, 23);
             txt_correo.TabIndex = 7;
@@ -124,15 +139,13 @@
             btn_Agregar.FlatStyle = FlatStyle.Popup;
             btn_Agregar.Font = new Font("Impact", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btn_Agregar.ForeColor = Color.White;
-            btn_Agregar.Location = new Point(251, 208);
+            btn_Agregar.Location = new Point(250, 230);
             btn_Agregar.Name = "btn_Agregar";
             btn_Agregar.Size = new Size(200, 31);
             btn_Agregar.TabIndex = 6;
             btn_Agregar.Text = "AGREGAR";
             btn_Agregar.UseVisualStyleBackColor = false;
             btn_Agregar.Click += btn_Agregar_Click;
-            btn_Agregar.MouseEnter += Mouse_Enter_PB;
-            btn_Agregar.MouseLeave += Mouse_Leave_PB;
             // 
             // label4
             // 
@@ -140,7 +153,7 @@
             label4.BackColor = Color.Transparent;
             label4.Font = new Font("Impact", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label4.ForeColor = Color.White;
-            label4.Location = new Point(98, 139);
+            label4.Location = new Point(97, 161);
             label4.Name = "label4";
             label4.Size = new Size(153, 20);
             label4.TabIndex = 3;
@@ -152,7 +165,7 @@
             label3.BackColor = Color.Transparent;
             label3.Font = new Font("Impact", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label3.ForeColor = Color.White;
-            label3.Location = new Point(114, 75);
+            label3.Location = new Point(113, 97);
             label3.Name = "label3";
             label3.Size = new Size(137, 20);
             label3.TabIndex = 2;
@@ -164,7 +177,7 @@
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Impact", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label2.ForeColor = Color.White;
-            label2.Location = new Point(161, 108);
+            label2.Location = new Point(160, 130);
             label2.Name = "label2";
             label2.Size = new Size(90, 20);
             label2.TabIndex = 1;
@@ -176,7 +189,7 @@
             label6.BackColor = Color.Transparent;
             label6.Font = new Font("Impact", 12F);
             label6.ForeColor = Color.White;
-            label6.Location = new Point(164, 396);
+            label6.Location = new Point(163, 418);
             label6.Name = "label6";
             label6.Size = new Size(86, 20);
             label6.TabIndex = 15;
@@ -185,7 +198,7 @@
             // cb_modMembresia
             // 
             cb_modMembresia.FormattingEnabled = true;
-            cb_modMembresia.Location = new Point(251, 396);
+            cb_modMembresia.Location = new Point(250, 418);
             cb_modMembresia.Name = "cb_modMembresia";
             cb_modMembresia.Size = new Size(200, 23);
             cb_modMembresia.TabIndex = 26;
@@ -196,7 +209,7 @@
             label5.BackColor = Color.Transparent;
             label5.Font = new Font("Impact", 12F);
             label5.ForeColor = Color.White;
-            label5.Location = new Point(98, 360);
+            label5.Location = new Point(97, 382);
             label5.Name = "label5";
             label5.Size = new Size(153, 20);
             label5.TabIndex = 25;
@@ -204,7 +217,7 @@
             // 
             // txt_modCorreo
             // 
-            txt_modCorreo.Location = new Point(251, 360);
+            txt_modCorreo.Location = new Point(250, 382);
             txt_modCorreo.Name = "txt_modCorreo";
             txt_modCorreo.Size = new Size(200, 23);
             txt_modCorreo.TabIndex = 24;
@@ -215,19 +228,17 @@
             btn_Modificar.FlatStyle = FlatStyle.Popup;
             btn_Modificar.Font = new Font("Impact", 12F);
             btn_Modificar.ForeColor = Color.White;
-            btn_Modificar.Location = new Point(251, 437);
+            btn_Modificar.Location = new Point(250, 459);
             btn_Modificar.Name = "btn_Modificar";
             btn_Modificar.Size = new Size(200, 31);
             btn_Modificar.TabIndex = 23;
             btn_Modificar.Text = "MODIFICAR";
             btn_Modificar.UseVisualStyleBackColor = false;
             btn_Modificar.Click += btn_Modificar_Click;
-            btn_Modificar.MouseEnter += Mouse_Enter_PB;
-            btn_Modificar.MouseLeave += Mouse_Leave_PB;
             // 
             // txt_modId
             // 
-            txt_modId.Location = new Point(251, 326);
+            txt_modId.Location = new Point(250, 348);
             txt_modId.Name = "txt_modId";
             txt_modId.Size = new Size(200, 23);
             txt_modId.TabIndex = 20;
@@ -238,7 +249,7 @@
             label7.BackColor = Color.Transparent;
             label7.Font = new Font("Impact", 12F);
             label7.ForeColor = Color.White;
-            label7.Location = new Point(136, 326);
+            label7.Location = new Point(135, 348);
             label7.Name = "label7";
             label7.Size = new Size(115, 20);
             label7.TabIndex = 13;
@@ -250,19 +261,17 @@
             btn_Eliminar.FlatStyle = FlatStyle.Popup;
             btn_Eliminar.Font = new Font("Impact", 12F);
             btn_Eliminar.ForeColor = Color.White;
-            btn_Eliminar.Location = new Point(780, 438);
+            btn_Eliminar.Location = new Point(746, 466);
             btn_Eliminar.Name = "btn_Eliminar";
             btn_Eliminar.Size = new Size(117, 30);
             btn_Eliminar.TabIndex = 27;
             btn_Eliminar.Text = "ELIMINAR";
             btn_Eliminar.UseVisualStyleBackColor = false;
             btn_Eliminar.Click += btn_Eliminar_Click;
-            btn_Eliminar.MouseEnter += Mouse_Enter_PB;
-            btn_Eliminar.MouseLeave += Mouse_Leave_PB;
             // 
             // txt_elimId
             // 
-            txt_elimId.Location = new Point(555, 448);
+            txt_elimId.Location = new Point(554, 470);
             txt_elimId.Name = "txt_elimId";
             txt_elimId.Size = new Size(176, 23);
             txt_elimId.TabIndex = 26;
@@ -273,7 +282,7 @@
             label12.BackColor = Color.Transparent;
             label12.Font = new Font("Impact", 12F);
             label12.ForeColor = Color.White;
-            label12.Location = new Point(470, 450);
+            label12.Location = new Point(469, 472);
             label12.Name = "label12";
             label12.Size = new Size(86, 20);
             label12.TabIndex = 25;
@@ -309,7 +318,7 @@
             dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
             dgv_miembros.DefaultCellStyle = dataGridViewCellStyle3;
             dgv_miembros.EnableHeadersVisualStyles = false;
-            dgv_miembros.Location = new Point(472, 64);
+            dgv_miembros.Location = new Point(471, 86);
             dgv_miembros.Name = "dgv_miembros";
             dgv_miembros.RowHeadersVisible = false;
             dgv_miembros.Size = new Size(650, 322);
@@ -321,7 +330,7 @@
             label8.BackColor = Color.Transparent;
             label8.Font = new Font("Impact", 27.75F, FontStyle.Italic | FontStyle.Underline);
             label8.ForeColor = Color.White;
-            label8.Location = new Point(136, 16);
+            label8.Location = new Point(135, 38);
             label8.Name = "label8";
             label8.Size = new Size(153, 45);
             label8.TabIndex = 31;
@@ -333,7 +342,7 @@
             label9.BackColor = Color.Transparent;
             label9.Font = new Font("Impact", 27.75F, FontStyle.Italic | FontStyle.Underline);
             label9.ForeColor = Color.FromArgb(255, 128, 0);
-            label9.Location = new Point(287, 16);
+            label9.Location = new Point(286, 38);
             label9.Name = "label9";
             label9.Size = new Size(160, 45);
             label9.TabIndex = 32;
@@ -345,7 +354,7 @@
             label10.BackColor = Color.Transparent;
             label10.Font = new Font("Impact", 27.75F, FontStyle.Italic | FontStyle.Underline);
             label10.ForeColor = Color.FromArgb(255, 128, 0);
-            label10.Location = new Point(288, 268);
+            label10.Location = new Point(287, 290);
             label10.Name = "label10";
             label10.Size = new Size(160, 45);
             label10.TabIndex = 34;
@@ -357,7 +366,7 @@
             label11.BackColor = Color.Transparent;
             label11.Font = new Font("Impact", 27.75F, FontStyle.Italic | FontStyle.Underline);
             label11.ForeColor = Color.White;
-            label11.Location = new Point(106, 268);
+            label11.Location = new Point(105, 290);
             label11.Name = "label11";
             label11.Size = new Size(183, 45);
             label11.TabIndex = 33;
@@ -369,7 +378,7 @@
             label13.BackColor = Color.Transparent;
             label13.Font = new Font("Impact", 20.25F, FontStyle.Italic | FontStyle.Underline);
             label13.ForeColor = Color.FromArgb(255, 128, 0);
-            label13.Location = new Point(584, 397);
+            label13.Location = new Point(583, 419);
             label13.Name = "label13";
             label13.Size = new Size(117, 34);
             label13.TabIndex = 36;
@@ -381,7 +390,7 @@
             label14.BackColor = Color.Transparent;
             label14.Font = new Font("Impact", 20.25F, FontStyle.Italic | FontStyle.Underline);
             label14.ForeColor = Color.White;
-            label14.Location = new Point(470, 397);
+            label14.Location = new Point(469, 419);
             label14.Name = "label14";
             label14.Size = new Size(115, 34);
             label14.TabIndex = 35;
@@ -393,7 +402,7 @@
             label15.BackColor = Color.Transparent;
             label15.Font = new Font("Impact", 27.75F, FontStyle.Underline, GraphicsUnit.Point, 0);
             label15.ForeColor = Color.White;
-            label15.Location = new Point(470, 16);
+            label15.Location = new Point(469, 38);
             label15.Name = "label15";
             label15.Size = new Size(307, 45);
             label15.TabIndex = 37;
@@ -402,7 +411,6 @@
             // panel1
             // 
             panel1.BackColor = Color.FromArgb(255, 128, 0);
-            panel1.Controls.Add(Boton_Salir);
             panel1.Controls.Add(label19);
             panel1.Controls.Add(pictureBox2);
             panel1.Controls.Add(label18);
@@ -414,23 +422,8 @@
             panel1.Dock = DockStyle.Left;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(92, 494);
+            panel1.Size = new Size(92, 515);
             panel1.TabIndex = 38;
-            // 
-            // Boton_Salir
-            // 
-            Boton_Salir.AutoSize = true;
-            Boton_Salir.BackColor = Color.Transparent;
-            Boton_Salir.Font = new Font("Impact", 21.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            Boton_Salir.ForeColor = Color.White;
-            Boton_Salir.Location = new Point(6, 434);
-            Boton_Salir.Name = "Boton_Salir";
-            Boton_Salir.Size = new Size(79, 36);
-            Boton_Salir.TabIndex = 42;
-            Boton_Salir.Text = "SALIR";
-            Boton_Salir.Click += Boton_Salir_Click;
-            Boton_Salir.MouseEnter += Mouse_Enter_PB;
-            Boton_Salir.MouseLeave += Mouse_Leave_PB;
             // 
             // label19
             // 
@@ -438,7 +431,7 @@
             label19.BackColor = Color.Transparent;
             label19.Font = new Font("Impact", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label19.ForeColor = Color.White;
-            label19.Location = new Point(0, 360);
+            label19.Location = new Point(0, 397);
             label19.Name = "label19";
             label19.Size = new Size(94, 20);
             label19.TabIndex = 41;
@@ -446,16 +439,15 @@
             // 
             // pictureBox2
             // 
+            pictureBox2.Cursor = Cursors.Hand;
             pictureBox2.Image = Properties.Resources.Inscripciones1;
-            pictureBox2.Location = new Point(12, 298);
+            pictureBox2.Location = new Point(12, 335);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(70, 70);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 40;
             pictureBox2.TabStop = false;
             pictureBox2.Click += pictureBox2_Click;
-            pictureBox2.MouseEnter += Mouse_Enter_PB;
-            pictureBox2.MouseLeave += Mouse_Leave_PB;
             // 
             // label18
             // 
@@ -463,7 +455,7 @@
             label18.BackColor = Color.Transparent;
             label18.Font = new Font("Impact", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label18.ForeColor = Color.White;
-            label18.Location = new Point(20, 262);
+            label18.Location = new Point(20, 299);
             label18.Name = "label18";
             label18.Size = new Size(54, 20);
             label18.TabIndex = 40;
@@ -475,7 +467,7 @@
             label17.BackColor = Color.Transparent;
             label17.Font = new Font("Impact", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label17.ForeColor = Color.White;
-            label17.Location = new Point(7, 163);
+            label17.Location = new Point(7, 200);
             label17.Name = "label17";
             label17.Size = new Size(78, 20);
             label17.TabIndex = 39;
@@ -487,7 +479,7 @@
             label16.BackColor = Color.Transparent;
             label16.Font = new Font("Impact", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label16.ForeColor = Color.White;
-            label16.Location = new Point(20, 64);
+            label16.Location = new Point(20, 101);
             label16.Name = "label16";
             label16.Size = new Size(51, 20);
             label16.TabIndex = 39;
@@ -495,49 +487,157 @@
             // 
             // pictureBox1
             // 
+            pictureBox1.Cursor = Cursors.Hand;
             pictureBox1.Image = Properties.Resources.Clases;
-            pictureBox1.Location = new Point(11, 202);
+            pictureBox1.Location = new Point(11, 239);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(70, 70);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 39;
             pictureBox1.TabStop = false;
             pictureBox1.Click += pictureBox1_Click;
-            pictureBox1.MouseEnter += Mouse_Enter_PB;
-            pictureBox1.MouseLeave += Mouse_Leave_PB;
             // 
             // pb_miembros
             // 
             pb_miembros.Image = Properties.Resources.Miembros;
-            pb_miembros.Location = new Point(10, 101);
+            pb_miembros.Location = new Point(10, 138);
             pb_miembros.Name = "pb_miembros";
             pb_miembros.Size = new Size(70, 70);
             pb_miembros.SizeMode = PictureBoxSizeMode.StretchImage;
             pb_miembros.TabIndex = 39;
             pb_miembros.TabStop = false;
             pb_miembros.Click += pb_miembros_Click;
-            pb_miembros.MouseEnter += Mouse_Enter_PB;
-            pb_miembros.MouseLeave += Mouse_Leave_PB;
             // 
             // pb_home
             // 
+            pb_home.Cursor = Cursors.Hand;
             pb_home.Image = Properties.Resources.Home;
-            pb_home.Location = new Point(10, 3);
+            pb_home.Location = new Point(10, 40);
             pb_home.Name = "pb_home";
             pb_home.Size = new Size(70, 70);
             pb_home.SizeMode = PictureBoxSizeMode.StretchImage;
             pb_home.TabIndex = 0;
             pb_home.TabStop = false;
             pb_home.Click += pb_home_Click;
-            pb_home.MouseEnter += Mouse_Enter_PB;
-            pb_home.MouseLeave += Mouse_Leave_PB;
+            // 
+            // p_ventana
+            // 
+            p_ventana.BackColor = Color.White;
+            p_ventana.Controls.Add(pb_ventanaNormal3);
+            p_ventana.Controls.Add(pb_minimizarVentana);
+            p_ventana.Controls.Add(pictureBox5);
+            p_ventana.Controls.Add(pictureBox6);
+            p_ventana.Controls.Add(pb_ventanaNormal);
+            p_ventana.Controls.Add(pb_guardarVentana);
+            p_ventana.Controls.Add(pb_CerrarVentana);
+            p_ventana.Dock = DockStyle.Top;
+            p_ventana.Location = new Point(92, 0);
+            p_ventana.Name = "p_ventana";
+            p_ventana.Size = new Size(1050, 26);
+            p_ventana.TabIndex = 56;
+            p_ventana.MouseDown += MoverPanel;
+            // 
+            // pb_ventanaNormal3
+            // 
+            pb_ventanaNormal3.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            pb_ventanaNormal3.BackColor = Color.White;
+            pb_ventanaNormal3.Cursor = Cursors.Hand;
+            pb_ventanaNormal3.Image = Properties.Resources.Achicar1;
+            pb_ventanaNormal3.Location = new Point(970, -4);
+            pb_ventanaNormal3.Name = "pb_ventanaNormal3";
+            pb_ventanaNormal3.Size = new Size(45, 33);
+            pb_ventanaNormal3.SizeMode = PictureBoxSizeMode.Zoom;
+            pb_ventanaNormal3.TabIndex = 63;
+            pb_ventanaNormal3.TabStop = false;
+            pb_ventanaNormal3.Click += pb_ventanaNormal3_Click;
+            // 
+            // pb_minimizarVentana
+            // 
+            pb_minimizarVentana.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            pb_minimizarVentana.BackColor = Color.White;
+            pb_minimizarVentana.Cursor = Cursors.Hand;
+            pb_minimizarVentana.Image = Properties.Resources.Minimizar;
+            pb_minimizarVentana.Location = new Point(940, -2);
+            pb_minimizarVentana.Name = "pb_minimizarVentana";
+            pb_minimizarVentana.Size = new Size(37, 28);
+            pb_minimizarVentana.SizeMode = PictureBoxSizeMode.Zoom;
+            pb_minimizarVentana.TabIndex = 62;
+            pb_minimizarVentana.TabStop = false;
+            pb_minimizarVentana.Click += pb_minimizarVentana_Click;
+            // 
+            // pictureBox5
+            // 
+            pictureBox5.BackColor = Color.White;
+            pictureBox5.Cursor = Cursors.Hand;
+            pictureBox5.Image = Properties.Resources.Maximizar;
+            pictureBox5.Location = new Point(978, -3);
+            pictureBox5.Name = "pictureBox5";
+            pictureBox5.Size = new Size(29, 29);
+            pictureBox5.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox5.TabIndex = 61;
+            pictureBox5.TabStop = false;
+            pictureBox5.Click += pictureBox5_Click;
+            // 
+            // pictureBox6
+            // 
+            pictureBox6.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            pictureBox6.BackColor = Color.White;
+            pictureBox6.Cursor = Cursors.Hand;
+            pictureBox6.Image = Properties.Resources.CerrarVentana;
+            pictureBox6.Location = new Point(1020, 3);
+            pictureBox6.Name = "pictureBox6";
+            pictureBox6.Size = new Size(20, 21);
+            pictureBox6.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox6.TabIndex = 60;
+            pictureBox6.TabStop = false;
+            pictureBox6.Click += pictureBox6_Click;
+            // 
+            // pb_ventanaNormal
+            // 
+            pb_ventanaNormal.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            pb_ventanaNormal.BackColor = Color.White;
+            pb_ventanaNormal.Cursor = Cursors.Hand;
+            pb_ventanaNormal.Image = Properties.Resources.Achicar1;
+            pb_ventanaNormal.Location = new Point(1460, -4);
+            pb_ventanaNormal.Name = "pb_ventanaNormal";
+            pb_ventanaNormal.Size = new Size(45, 33);
+            pb_ventanaNormal.SizeMode = PictureBoxSizeMode.Zoom;
+            pb_ventanaNormal.TabIndex = 59;
+            pb_ventanaNormal.TabStop = false;
+            // 
+            // pb_guardarVentana
+            // 
+            pb_guardarVentana.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            pb_guardarVentana.BackColor = Color.White;
+            pb_guardarVentana.Cursor = Cursors.Hand;
+            pb_guardarVentana.Image = Properties.Resources.Minimizar;
+            pb_guardarVentana.Location = new Point(1429, -2);
+            pb_guardarVentana.Name = "pb_guardarVentana";
+            pb_guardarVentana.Size = new Size(37, 28);
+            pb_guardarVentana.SizeMode = PictureBoxSizeMode.Zoom;
+            pb_guardarVentana.TabIndex = 58;
+            pb_guardarVentana.TabStop = false;
+            // 
+            // pb_CerrarVentana
+            // 
+            pb_CerrarVentana.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            pb_CerrarVentana.BackColor = Color.White;
+            pb_CerrarVentana.Cursor = Cursors.Hand;
+            pb_CerrarVentana.Image = Properties.Resources.CerrarVentana;
+            pb_CerrarVentana.Location = new Point(1509, 3);
+            pb_CerrarVentana.Name = "pb_CerrarVentana";
+            pb_CerrarVentana.Size = new Size(20, 21);
+            pb_CerrarVentana.SizeMode = PictureBoxSizeMode.Zoom;
+            pb_CerrarVentana.TabIndex = 56;
+            pb_CerrarVentana.TabStop = false;
             // 
             // GestorMiembros
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(64, 64, 64);
-            ClientSize = new Size(1142, 494);
+            ClientSize = new Size(1142, 515);
+            Controls.Add(p_ventana);
             Controls.Add(panel1);
             Controls.Add(label15);
             Controls.Add(btn_Eliminar);
@@ -566,7 +666,7 @@
             Controls.Add(label2);
             Controls.Add(label4);
             Controls.Add(label3);
-            FormBorderStyle = FormBorderStyle.FixedSingle;
+            FormBorderStyle = FormBorderStyle.None;
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "GestorMiembros";
             Text = "Gestion de Gimnasio";
@@ -578,6 +678,14 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pb_miembros).EndInit();
             ((System.ComponentModel.ISupportInitialize)pb_home).EndInit();
+            p_ventana.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pb_ventanaNormal3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pb_minimizarVentana).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pb_ventanaNormal).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pb_guardarVentana).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pb_CerrarVentana).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -619,6 +727,13 @@
         private Label label16;
         private PictureBox pictureBox2;
         private Label label19;
-        private Label Boton_Salir;
+        private Panel p_ventana;
+        private PictureBox pb_ventanaNormal;
+        private PictureBox pb_guardarVentana;
+        private PictureBox pb_CerrarVentana;
+        private PictureBox pb_ventanaNormal3;
+        private PictureBox pb_minimizarVentana;
+        private PictureBox pictureBox5;
+        private PictureBox pictureBox6;
     }
 }

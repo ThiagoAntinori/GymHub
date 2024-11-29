@@ -1,12 +1,14 @@
 ﻿using BLL;
 using DAL;
 using Entity;
+using Microsoft.VisualBasic.ApplicationServices;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -47,6 +49,7 @@ namespace UI
                 txtEntrenador.KeyPress += new KeyPressEventHandler(textBox_SoloLetras);
                 txtDescripcion.KeyPress += new KeyPressEventHandler(textBox_SoloLetras);
                 txtEntrenadorModificar.KeyPress += new KeyPressEventHandler(textBox_SoloLetras);
+                pb_ventanaNormal4.Visible = false;
                 actualizarVista();
             }
             catch (Exception ex)
@@ -166,17 +169,7 @@ namespace UI
             }
         }
 
-        //eventos de iconos y mouse
-
-        private void Mouse_Enter_PB(object sender, EventArgs e)
-        {
-            this.Cursor = Cursors.Hand;
-        }
-
-        private void Mouse_Leave_PB(object sender, EventArgs e)
-        {
-            this.Cursor = Cursors.Default;
-        }
+        //Botones Panel Lateral
         private void pb_miembros_Click(object sender, EventArgs e)
         {
             GestorMiembros GM = new GestorMiembros();
@@ -193,7 +186,7 @@ namespace UI
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            //ya esta en gestor clases
+
         }
 
         private void pb_inscripcion_Click(object sender, EventArgs e)
@@ -203,9 +196,40 @@ namespace UI
             this.Close();
         }
 
-        private void Boton_Salir_Click(object sender, EventArgs e)
+        //Mover Panel de arriba
+        [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
+        private extern static void ReleaseCapture();
+        [DllImport("user32.DLL", EntryPoint = "SendMessage")]
+        private extern static void SendMessage(System.IntPtr hWnd, int wMsg, int wParam, int lParam);
+
+        private void MoverPanel(object sender, MouseEventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
+
+        private void pb_cerrarVentana4_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void pb_minimizarVentana4_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void pb_maximizar_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Maximized;
+            pb_maximizar.Visible = false;
+            pb_ventanaNormal4.Visible = true;
+        }
+
+        private void pb_ventanaNormal4_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Normal;
+            pb_maximizar.Visible = true;
+            pb_ventanaNormal4.Visible = false;
         }
     }
 }

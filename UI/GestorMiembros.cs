@@ -6,6 +6,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -45,6 +46,7 @@ namespace UI
         private void Form1_Load(object sender, EventArgs e)
         {
             //Suscripcion a los eventos de SoloNumeros y letras para los txt
+            pb_ventanaNormal3.Visible = false;
             txt_elimId.KeyPress += new KeyPressEventHandler(textBox_SoloNumeros);
             txt_modId.KeyPress += new KeyPressEventHandler(textBox_SoloNumeros);
             txt_nombreApellido.KeyPress += new KeyPressEventHandler(textBox_SoloLetras);
@@ -178,18 +180,7 @@ namespace UI
         }
 
 
-        //Acciones de los Iconos y el puntero
-
-        private void Mouse_Enter_PB(object sender, EventArgs e)
-        {
-            this.Cursor = Cursors.Hand;
-        }
-
-        private void Mouse_Leave_PB(object sender, EventArgs e)
-        {
-            this.Cursor = Cursors.Default;
-        }
-
+        //Botones Paneles Laterales
         private void pb_home_Click(object sender, EventArgs e)
         {
             Principal form = new Principal();
@@ -199,7 +190,7 @@ namespace UI
 
         private void pb_miembros_Click(object sender, EventArgs e)
         {
-            //Ya esta en gestion de miembros
+
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -216,9 +207,42 @@ namespace UI
             this.Close();
         }
 
-        private void Boton_Salir_Click(object sender, EventArgs e)
+        //Mover Panel
+        [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
+        private extern static void ReleaseCapture();
+        [DllImport("user32.DLL", EntryPoint = "SendMessage")]
+        private extern static void SendMessage(System.IntPtr hWnd, int wMsg, int wParam, int lParam);
+
+        private void MoverPanel(object sender, MouseEventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
+
+        //Botones Panel de Arriba
+        private void pictureBox6_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
+
+        private void pb_minimizarVentana_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void pb_ventanaNormal3_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Normal;
+            pictureBox5.Visible = true;
+            pb_ventanaNormal3.Visible = false;
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Maximized;
+            pictureBox5.Visible = false;
+            pb_ventanaNormal3.Visible = true;
+        }
     }
+
 }
