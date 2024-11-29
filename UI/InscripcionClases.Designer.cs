@@ -31,6 +31,7 @@
             DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(InscripcionClases));
             label1 = new Label();
             cmbClaseInscribir = new ComboBox();
             dtpVencimiento = new DateTimePicker();
@@ -723,6 +724,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(64, 64, 64);
+            BackgroundImage = Properties.Resources.Fondo;
             ClientSize = new Size(1177, 643);
             Controls.Add(p_ventana);
             Controls.Add(btnFiltrarPorClase);
@@ -761,6 +763,7 @@
             Controls.Add(label3);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "InscripcionClases";
             Text = "Gestion de Gimnasio";
             Load += InscripcionClases_Load;

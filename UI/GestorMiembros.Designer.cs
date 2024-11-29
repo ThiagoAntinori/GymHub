@@ -636,6 +636,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(64, 64, 64);
+            BackgroundImage = Properties.Resources.Fondo;
             ClientSize = new Size(1142, 515);
             Controls.Add(p_ventana);
             Controls.Add(panel1);
