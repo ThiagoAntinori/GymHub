@@ -22,7 +22,7 @@ namespace UI
 
         MembresiaBusiness membresiasBusiness = new MembresiaBusiness();
         MiembroBusiness miembroBusiness = new MiembroBusiness();
-        public List<Miembro> listaBorrador = new List<Miembro>();
+        List<Miembro> listaBorrador = new List<Miembro>();
 
         public void textBox_SoloLetras(object sender, KeyPressEventArgs e)
         {
@@ -145,16 +145,16 @@ namespace UI
                     }
                 };
                 listaBorrador.Add(nuevoMiembro);
-                actualizarElementos();
-                MessageBox.Show($"Se agregó al borrador. Cantidad en espera: {listaBorrador.Count}");
+                limpiarCampos();
+                MessageBox.Show($"Nuevo miembro cargado al borrador. \nCantidad en espera: {listaBorrador.Count}");
             }
-            catch (FormatException fe)
+            catch (FormatException)
             {
-                MessageBox.Show(fe.Message);
+                MessageBox.Show("Ingrese los datos correctamente", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -162,18 +162,15 @@ namespace UI
         {
             try
             {
-                if (listaBorrador.Count <= 0)
-                {
-                    throw new Exception("No hay miembros en espera");
-                }
                 miembroBusiness.CargarMultiplesMiembros(listaBorrador);
-                actualizarElementos();
-                MessageBox.Show("Se cargaron correctamente");
+                actualizarDGV();
+                listaBorrador.Clear();
+                MessageBox.Show("Se guardaron los cambios correctamente");
             }
             catch (Exception ex)
             {
                 listaBorrador.Clear();
-                MessageBox.Show(ex.Message + ". Se descartaron el resto de los miembros del borrador.");
+                MessageBox.Show(ex.Message + $" Se revertieron todos los cambios. \n Cantidad en espera: {listaBorrador.Count}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
