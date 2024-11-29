@@ -83,6 +83,7 @@
             pb_guardarVentana = new PictureBox();
             pb_cerrarVentana2 = new PictureBox();
             pb_CerrarVentana = new PictureBox();
+            btnDeshacerFiltro = new Button();
             ((System.ComponentModel.ISupportInitialize)dgvInscripciones).BeginInit();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -511,7 +512,7 @@
             panel1.Dock = DockStyle.Left;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(92, 643);
+            panel1.Size = new Size(92, 727);
             panel1.TabIndex = 54;
             // 
             // label19
@@ -621,7 +622,7 @@
             p_ventana.Dock = DockStyle.Top;
             p_ventana.Location = new Point(92, 0);
             p_ventana.Name = "p_ventana";
-            p_ventana.Size = new Size(1085, 26);
+            p_ventana.Size = new Size(1095, 26);
             p_ventana.TabIndex = 56;
             p_ventana.MouseDown += MoverPanel;
             // 
@@ -631,7 +632,7 @@
             pb_guardarVentana2.BackColor = Color.White;
             pb_guardarVentana2.Cursor = Cursors.Hand;
             pb_guardarVentana2.Image = Properties.Resources.Achicar1;
-            pb_guardarVentana2.Location = new Point(1014, -5);
+            pb_guardarVentana2.Location = new Point(1024, -5);
             pb_guardarVentana2.Name = "pb_guardarVentana2";
             pb_guardarVentana2.Size = new Size(45, 33);
             pb_guardarVentana2.SizeMode = PictureBoxSizeMode.Zoom;
@@ -645,7 +646,7 @@
             pb_minimzarVentana2.BackColor = Color.White;
             pb_minimzarVentana2.Cursor = Cursors.Hand;
             pb_minimzarVentana2.Image = Properties.Resources.Minimizar;
-            pb_minimzarVentana2.Location = new Point(987, -2);
+            pb_minimzarVentana2.Location = new Point(997, -2);
             pb_minimzarVentana2.Name = "pb_minimzarVentana2";
             pb_minimzarVentana2.Size = new Size(37, 28);
             pb_minimzarVentana2.SizeMode = PictureBoxSizeMode.Zoom;
@@ -659,7 +660,7 @@
             pb_ventanaNormal.BackColor = Color.White;
             pb_ventanaNormal.Cursor = Cursors.Hand;
             pb_ventanaNormal.Image = Properties.Resources.Achicar1;
-            pb_ventanaNormal.Location = new Point(1500, -4);
+            pb_ventanaNormal.Location = new Point(1510, -4);
             pb_ventanaNormal.Name = "pb_ventanaNormal";
             pb_ventanaNormal.Size = new Size(45, 33);
             pb_ventanaNormal.SizeMode = PictureBoxSizeMode.Zoom;
@@ -685,7 +686,7 @@
             pb_guardarVentana.BackColor = Color.White;
             pb_guardarVentana.Cursor = Cursors.Hand;
             pb_guardarVentana.Image = Properties.Resources.Minimizar;
-            pb_guardarVentana.Location = new Point(1475, -2);
+            pb_guardarVentana.Location = new Point(1485, -2);
             pb_guardarVentana.Name = "pb_guardarVentana";
             pb_guardarVentana.Size = new Size(37, 28);
             pb_guardarVentana.SizeMode = PictureBoxSizeMode.Zoom;
@@ -698,7 +699,7 @@
             pb_cerrarVentana2.BackColor = Color.White;
             pb_cerrarVentana2.Cursor = Cursors.Hand;
             pb_cerrarVentana2.Image = Properties.Resources.CerrarVentana;
-            pb_cerrarVentana2.Location = new Point(1056, 3);
+            pb_cerrarVentana2.Location = new Point(1066, 3);
             pb_cerrarVentana2.Name = "pb_cerrarVentana2";
             pb_cerrarVentana2.Size = new Size(20, 21);
             pb_cerrarVentana2.SizeMode = PictureBoxSizeMode.Zoom;
@@ -712,12 +713,26 @@
             pb_CerrarVentana.BackColor = Color.White;
             pb_CerrarVentana.Cursor = Cursors.Hand;
             pb_CerrarVentana.Image = Properties.Resources.CerrarVentana;
-            pb_CerrarVentana.Location = new Point(1544, 3);
+            pb_CerrarVentana.Location = new Point(1554, 3);
             pb_CerrarVentana.Name = "pb_CerrarVentana";
             pb_CerrarVentana.Size = new Size(20, 21);
             pb_CerrarVentana.SizeMode = PictureBoxSizeMode.Zoom;
             pb_CerrarVentana.TabIndex = 56;
             pb_CerrarVentana.TabStop = false;
+            // 
+            // btnDeshacerFiltro
+            // 
+            btnDeshacerFiltro.BackColor = Color.ForestGreen;
+            btnDeshacerFiltro.FlatStyle = FlatStyle.Popup;
+            btnDeshacerFiltro.Font = new Font("Impact", 12F);
+            btnDeshacerFiltro.ForeColor = Color.White;
+            btnDeshacerFiltro.Location = new Point(886, 661);
+            btnDeshacerFiltro.Name = "btnDeshacerFiltro";
+            btnDeshacerFiltro.Size = new Size(279, 31);
+            btnDeshacerFiltro.TabIndex = 57;
+            btnDeshacerFiltro.Text = "DESHACER FILTRO";
+            btnDeshacerFiltro.UseVisualStyleBackColor = false;
+            btnDeshacerFiltro.Click += btnDeshacerFiltro_Click;
             // 
             // InscripcionClases
             // 
@@ -725,7 +740,8 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(64, 64, 64);
             BackgroundImage = Properties.Resources.Fondo;
-            ClientSize = new Size(1177, 643);
+            ClientSize = new Size(1187, 727);
+            Controls.Add(btnDeshacerFiltro);
             Controls.Add(p_ventana);
             Controls.Add(btnFiltrarPorClase);
             Controls.Add(btnFiltrarPorMiembro);
@@ -766,6 +782,7 @@
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "InscripcionClases";
             Text = "Gestion de Gimnasio";
+            WindowState = FormWindowState.Maximized;
             Load += InscripcionClases_Load;
             ((System.ComponentModel.ISupportInitialize)dgvInscripciones).EndInit();
             panel1.ResumeLayout(false);
@@ -838,5 +855,6 @@
         private PictureBox pb_maximizarVentana2;
         private PictureBox pb_cerrarVentana2;
         private PictureBox pb_guardarVentana2;
+        private Button btnDeshacerFiltro;
     }
 }

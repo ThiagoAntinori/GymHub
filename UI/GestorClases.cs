@@ -54,7 +54,7 @@ namespace UI
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -121,11 +121,11 @@ namespace UI
                 };
                 ClaseBusiness.CargarNuevaClase(nuevaClase);
                 actualizarVista();
-                MessageBox.Show("Se cargó la clase correctamente");
+                MessageBox.Show("Se cargó la clase correctamente.");
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -144,11 +144,11 @@ namespace UI
                 };
                 ClaseBusiness.ModificarClase(claseAModificar);
                 actualizarVista();
-                MessageBox.Show("Se modificó la clase correctamente");
+                MessageBox.Show("Se modificó la clase correctamente.");
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -156,16 +156,16 @@ namespace UI
         {
             try
             {
-                if (MessageBox.Show($"¿Desea eliminar la clase con ID {txtIdEliminar.Text}?", "Atención", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                if (MessageBox.Show($"¿Desea eliminar la clase con ID: {txtIdEliminar.Text}? \n Se eliminarán todas las inscripciones a la misma.", "Atención", MessageBoxButtons.YesNo) == DialogResult.Yes)
                 {
                     ClaseBusiness.EliminarClase(Convert.ToInt32(txtIdEliminar.Text));
                     actualizarVista();
-                    MessageBox.Show("Se eliminó la clase correctamente");
+                    MessageBox.Show("Se eliminó la clase correctamente.");
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 

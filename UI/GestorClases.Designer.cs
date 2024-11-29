@@ -747,6 +747,7 @@
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "GestorClases";
             Text = "Gestion de Gimnasio";
+            WindowState = FormWindowState.Maximized;
             Load += GestorClases_Load;
             ((System.ComponentModel.ISupportInitialize)dgvClases).EndInit();
             ((System.ComponentModel.ISupportInitialize)pb_inscripcion).EndInit();

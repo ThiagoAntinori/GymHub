@@ -96,3 +96,23 @@ C:\Users\thiag\Desktop\PROJECTS\C# .NET\GymHub\GymHub2\GymHub\BLL\obj\Debug\net8
 C:\Users\thiag\Desktop\PROJECTS\C# .NET\GymHub\GymHub2\GymHub\BLL\obj\Debug\net8.0\refint\BLL.dll
 C:\Users\thiag\Desktop\PROJECTS\C# .NET\GymHub\GymHub2\GymHub\BLL\obj\Debug\net8.0\BLL.pdb
 C:\Users\thiag\Desktop\PROJECTS\C# .NET\GymHub\GymHub2\GymHub\BLL\obj\Debug\net8.0\ref\BLL.dll
+D:\Antinori\TPFINAL\GymHub\BLL\bin\Debug\net8.0\BLL.deps.json
+D:\Antinori\TPFINAL\GymHub\BLL\bin\Debug\net8.0\BLL.dll
+D:\Antinori\TPFINAL\GymHub\BLL\bin\Debug\net8.0\BLL.pdb
+D:\Antinori\TPFINAL\GymHub\BLL\bin\Debug\net8.0\DAL.dll
+D:\Antinori\TPFINAL\GymHub\BLL\bin\Debug\net8.0\Entity.dll
+D:\Antinori\TPFINAL\GymHub\BLL\bin\Debug\net8.0\Mapper.dll
+D:\Antinori\TPFINAL\GymHub\BLL\bin\Debug\net8.0\DAL.pdb
+D:\Antinori\TPFINAL\GymHub\BLL\bin\Debug\net8.0\Entity.pdb
+D:\Antinori\TPFINAL\GymHub\BLL\bin\Debug\net8.0\Mapper.pdb
+D:\Antinori\TPFINAL\GymHub\BLL\obj\Debug\net8.0\BLL.csproj.AssemblyReference.cache
+D:\Antinori\TPFINAL\GymHub\BLL\obj\Debug\net8.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Antinori\TPFINAL\GymHub\BLL\obj\Debug\net8.0\BLL.AssemblyInfoInputs.cache
+D:\Antinori\TPFINAL\GymHub\BLL\obj\Debug\net8.0\BLL.AssemblyInfo.cs
+D:\Antinori\TPFINAL\GymHub\BLL\obj\Debug\net8.0\BLL.csproj.CoreCompileInputs.cache
+D:\Antinori\TPFINAL\GymHub\BLL\obj\Debug\net8.0\BLL.sourcelink.json
+D:\Antinori\TPFINAL\GymHub\BLL\obj\Debug\net8.0\BLL.csproj.CopyComplete
+D:\Antinori\TPFINAL\GymHub\BLL\obj\Debug\net8.0\BLL.dll
+D:\Antinori\TPFINAL\GymHub\BLL\obj\Debug\net8.0\refint\BLL.dll
+D:\Antinori\TPFINAL\GymHub\BLL\obj\Debug\net8.0\BLL.pdb
+D:\Antinori\TPFINAL\GymHub\BLL\obj\Debug\net8.0\ref\BLL.dll

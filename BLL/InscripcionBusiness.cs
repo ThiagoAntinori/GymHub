@@ -14,6 +14,7 @@ namespace BLL
     public class InscripcionBusiness
     {
         InscripcionDao InscripcionDao = new InscripcionDao();
+
         public void CargarNuevaInscripcion(Inscripcion inscripcion)
         {
             try
@@ -30,7 +31,7 @@ namespace BLL
                     if (inscripcion.FechaVencimiento < DateTime.Today) { throw new Exception("La fecha de vencimiento debe ser posterior al día de hoy"); }
                     if (inscripcion.Clase.CapacidadMaxima == this.GetAll()
                         .Where(i => i.Clase.IdClase == inscripcion.Clase.IdClase)
-                        .ToList().Count + 1) { throw new Exception("La clase seleccionada alcanzó su capacidad máxima"); }
+                        .ToList().Count) { throw new Exception("La clase seleccionada alcanzó su capacidad máxima"); }
                     inscripcion.FechaInscripcion = DateTime.Today;
                     InscripcionDao.CargarInscripcion(inscripcion);
                     trx.Complete();
@@ -73,6 +74,38 @@ namespace BLL
                 InscripcionDao.EliminarInscripcion(idClase, idMiembro);
             }
             catch (Exception ex)
+            {
+                throw;
+            }
+        }
+
+        public void EliminarInscripcionesSegunClase(int idClase)
+        {
+            try
+            {
+                using(var trx = new TransactionScope())
+                {
+                    InscripcionDao.EliminarInscripcionSegunClase(idClase);
+                    trx.Complete();
+                }
+            }
+            catch(Exception ex)
+            {
+                throw;
+            }
+        }
+
+        public void EliminarInscripcionSegunMiembro(int idMiembro)
+        {
+            try
+            {
+                using(var trx = new TransactionScope())
+                {
+                    InscripcionDao.EliminarInscripcionSegunMiembro(idMiembro);
+                    trx.Complete();
+                }
+            }
+            catch(Exception ex)
             {
                 throw;
             }

@@ -379,10 +379,7 @@
           "Entity": "1.0.0"
         },
         "runtime": {
-          "BLL.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "BLL.dll": {}
         }
       },
       "DAL/1.0.0": {
@@ -393,18 +390,12 @@
           "System.Configuration.ConfigurationManager": "9.0.0"
         },
         "runtime": {
-          "DAL.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "DAL.dll": {}
         }
       },
       "Entity/1.0.0": {
         "runtime": {
-          "Entity.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Entity.dll": {}
         }
       },
       "Mapper/1.0.0": {
@@ -413,10 +404,7 @@
           "Microsoft.Data.SqlClient": "5.2.2"
         },
         "runtime": {
-          "Mapper.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Mapper.dll": {}
         }
       }
     }

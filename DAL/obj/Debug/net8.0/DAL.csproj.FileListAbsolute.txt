@@ -86,3 +86,21 @@ C:\Users\thiag\Desktop\PROJECTS\C# .NET\GymHub\GymHub2\GymHub\DAL\obj\Debug\net8
 C:\Users\thiag\Desktop\PROJECTS\C# .NET\GymHub\GymHub2\GymHub\DAL\obj\Debug\net8.0\refint\DAL.dll
 C:\Users\thiag\Desktop\PROJECTS\C# .NET\GymHub\GymHub2\GymHub\DAL\obj\Debug\net8.0\DAL.pdb
 C:\Users\thiag\Desktop\PROJECTS\C# .NET\GymHub\GymHub2\GymHub\DAL\obj\Debug\net8.0\ref\DAL.dll
+D:\Antinori\TPFINAL\GymHub\DAL\bin\Debug\net8.0\DAL.deps.json
+D:\Antinori\TPFINAL\GymHub\DAL\bin\Debug\net8.0\DAL.dll
+D:\Antinori\TPFINAL\GymHub\DAL\bin\Debug\net8.0\DAL.pdb
+D:\Antinori\TPFINAL\GymHub\DAL\bin\Debug\net8.0\Entity.dll
+D:\Antinori\TPFINAL\GymHub\DAL\bin\Debug\net8.0\Mapper.dll
+D:\Antinori\TPFINAL\GymHub\DAL\bin\Debug\net8.0\Entity.pdb
+D:\Antinori\TPFINAL\GymHub\DAL\bin\Debug\net8.0\Mapper.pdb
+D:\Antinori\TPFINAL\GymHub\DAL\obj\Debug\net8.0\DAL.csproj.AssemblyReference.cache
+D:\Antinori\TPFINAL\GymHub\DAL\obj\Debug\net8.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Antinori\TPFINAL\GymHub\DAL\obj\Debug\net8.0\DAL.AssemblyInfoInputs.cache
+D:\Antinori\TPFINAL\GymHub\DAL\obj\Debug\net8.0\DAL.AssemblyInfo.cs
+D:\Antinori\TPFINAL\GymHub\DAL\obj\Debug\net8.0\DAL.csproj.CoreCompileInputs.cache
+D:\Antinori\TPFINAL\GymHub\DAL\obj\Debug\net8.0\DAL.sourcelink.json
+D:\Antinori\TPFINAL\GymHub\DAL\obj\Debug\net8.0\DAL.csproj.CopyComplete
+D:\Antinori\TPFINAL\GymHub\DAL\obj\Debug\net8.0\DAL.dll
+D:\Antinori\TPFINAL\GymHub\DAL\obj\Debug\net8.0\refint\DAL.dll
+D:\Antinori\TPFINAL\GymHub\DAL\obj\Debug\net8.0\DAL.pdb
+D:\Antinori\TPFINAL\GymHub\DAL\obj\Debug\net8.0\ref\DAL.dll

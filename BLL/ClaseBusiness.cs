@@ -12,6 +12,8 @@ namespace BLL
     public class ClaseBusiness
     {
         private ClaseDao ClaseDao = new ClaseDao();
+        private InscripcionBusiness InscripcionBusiness = new InscripcionBusiness();
+
         public void CargarNuevaClase(Clase clase)
         {
             try
@@ -58,11 +60,12 @@ namespace BLL
         {
             try
             {
-                if(ClaseDao.GetAllClases().Where(c => c.IdClase == idClase).ToList().Count <= 0)
+                using(var trx = new TransactionScope())
                 {
-                    throw new Exception("No se encontró la clase seleccionada");
+                    InscripcionBusiness.EliminarInscripcionesSegunClase(idClase);
+                    ClaseDao.EliminarClase(idClase);
+                    trx.Complete();
                 }
-                ClaseDao.EliminarClase(idClase);
             }
             catch (Exception ex)
             {

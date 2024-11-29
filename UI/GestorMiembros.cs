@@ -162,15 +162,25 @@ namespace UI
         {
             try
             {
+                if (listaBorrador.Count <= 0)
+                {
+                    throw new Exception("No hay miembros en espera a ser cargados.");
+                }
                 miembroBusiness.CargarMultiplesMiembros(listaBorrador);
-                actualizarDGV();
-                listaBorrador.Clear();
-                MessageBox.Show("Se guardaron los cambios correctamente");
+                actualizarElementos();
+                MessageBox.Show("Se cargaron correctamente");
             }
             catch (Exception ex)
             {
-                listaBorrador.Clear();
-                MessageBox.Show(ex.Message + $" Se revertieron todos los cambios. \n Cantidad en espera: {listaBorrador.Count}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                if(ex.Message == "No hay miembros en espera")
+                {
+                    MessageBox.Show(ex.Message);
+                }
+                else
+                {
+                    listaBorrador.Clear();
+                    MessageBox.Show(ex.Message + ".\n Se descartaron el resto de los miembros del borrador.");
+                }
             }
         }
 
@@ -178,12 +188,12 @@ namespace UI
         {
             try
             {
-                if (MessageBox.Show($" Desea eliminar el miembro {txt_elimId.Text}?", "Atenci n", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                if (MessageBox.Show($" Desea eliminar el miembro con el ID: {txt_elimId.Text}? Se eliminarán todas sus inscripciones", "Atenci n", MessageBoxButtons.YesNo) == DialogResult.Yes)
                 {
                     int id = Convert.ToInt32(txt_elimId.Text);
                     miembroBusiness.EliminarMiembroBusiness(id);
                     actualizarElementos();
-                    MessageBox.Show("Se elimin  el miembro");
+                    MessageBox.Show("Se eliminó el miembro");
                 }
             }
             catch (FormatException)
@@ -212,7 +222,7 @@ namespace UI
                 };
                 miembroBusiness.ModificarMiembroBusiness(modificarMiembro);
                 actualizarElementos();
-                MessageBox.Show("Se modific  la aplicacion");
+                MessageBox.Show("Se modificó la aplicacion");
             }
             catch (FormatException)
             {

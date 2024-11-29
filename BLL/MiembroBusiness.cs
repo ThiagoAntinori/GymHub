@@ -12,6 +12,7 @@ namespace BLL
     public class MiembroBusiness
     {
         private MiembroDao MiembroDao = new MiembroDao();
+        private InscripcionBusiness InscripcionBusiness = new InscripcionBusiness();
         public void CargarMiembroBusiness(Miembro nuevomiembro)
         {
             try
@@ -110,6 +111,7 @@ namespace BLL
                     {
                         throw new Exception("No existe el miembro seleccionado");
                     }
+                    InscripcionBusiness.EliminarInscripcionSegunMiembro(idMiembro);
                     MiembroDao.EliminarMiembro(idMiembro);
                     trx.Complete();
                 }

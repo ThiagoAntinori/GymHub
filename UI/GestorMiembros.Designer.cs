@@ -703,6 +703,7 @@
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "GestorMiembros";
             Text = "Gestion de Gimnasio";
+            WindowState = FormWindowState.Maximized;
             Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)dgv_miembros).EndInit();
             panel1.ResumeLayout(false);

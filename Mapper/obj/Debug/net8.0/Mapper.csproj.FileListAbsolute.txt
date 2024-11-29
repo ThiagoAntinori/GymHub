@@ -76,3 +76,19 @@ C:\Users\thiag\Desktop\PROJECTS\C# .NET\GymHub\GymHub2\GymHub\Mapper\obj\Debug\n
 C:\Users\thiag\Desktop\PROJECTS\C# .NET\GymHub\GymHub2\GymHub\Mapper\obj\Debug\net8.0\refint\Mapper.dll
 C:\Users\thiag\Desktop\PROJECTS\C# .NET\GymHub\GymHub2\GymHub\Mapper\obj\Debug\net8.0\Mapper.pdb
 C:\Users\thiag\Desktop\PROJECTS\C# .NET\GymHub\GymHub2\GymHub\Mapper\obj\Debug\net8.0\ref\Mapper.dll
+D:\Antinori\TPFINAL\GymHub\Mapper\bin\Debug\net8.0\Mapper.deps.json
+D:\Antinori\TPFINAL\GymHub\Mapper\bin\Debug\net8.0\Mapper.dll
+D:\Antinori\TPFINAL\GymHub\Mapper\bin\Debug\net8.0\Mapper.pdb
+D:\Antinori\TPFINAL\GymHub\Mapper\bin\Debug\net8.0\Entity.dll
+D:\Antinori\TPFINAL\GymHub\Mapper\bin\Debug\net8.0\Entity.pdb
+D:\Antinori\TPFINAL\GymHub\Mapper\obj\Debug\net8.0\Mapper.csproj.AssemblyReference.cache
+D:\Antinori\TPFINAL\GymHub\Mapper\obj\Debug\net8.0\Mapper.GeneratedMSBuildEditorConfig.editorconfig
+D:\Antinori\TPFINAL\GymHub\Mapper\obj\Debug\net8.0\Mapper.AssemblyInfoInputs.cache
+D:\Antinori\TPFINAL\GymHub\Mapper\obj\Debug\net8.0\Mapper.AssemblyInfo.cs
+D:\Antinori\TPFINAL\GymHub\Mapper\obj\Debug\net8.0\Mapper.csproj.CoreCompileInputs.cache
+D:\Antinori\TPFINAL\GymHub\Mapper\obj\Debug\net8.0\Mapper.sourcelink.json
+D:\Antinori\TPFINAL\GymHub\Mapper\obj\Debug\net8.0\Mapper.csproj.CopyComplete
+D:\Antinori\TPFINAL\GymHub\Mapper\obj\Debug\net8.0\Mapper.dll
+D:\Antinori\TPFINAL\GymHub\Mapper\obj\Debug\net8.0\refint\Mapper.dll
+D:\Antinori\TPFINAL\GymHub\Mapper\obj\Debug\net8.0\Mapper.pdb
+D:\Antinori\TPFINAL\GymHub\Mapper\obj\Debug\net8.0\ref\Mapper.dll

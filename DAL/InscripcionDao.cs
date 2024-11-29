@@ -60,6 +60,48 @@ namespace DAL
             }
         }
 
+        public void EliminarInscripcionSegunClase(int idClase)
+        {
+            try
+            {
+                using (SqlConnection con = new SqlConnection(ConexionDB.ObtenerConexionDB()))
+                {
+                    con.Open();
+                    string query = "DELETE FROM CLASE_MIEMBRO WHERE ID_CLASE = @IdClase";
+                    using (SqlCommand cmd = new SqlCommand(query, con))
+                    {
+                        cmd.Parameters.AddWithValue("@IdClase", idClase);
+                        cmd.ExecuteNonQuery();
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
+        }
+
+        public void EliminarInscripcionSegunMiembro(int idMiembro) 
+        {
+            try
+            {
+                using (SqlConnection con = new SqlConnection(ConexionDB.ObtenerConexionDB()))
+                {
+                    con.Open();
+                    string query = "DELETE FROM CLASE_MIEMBRO WHERE ID_MIEMBRO = @IdMiembro";
+                    using (SqlCommand cmd = new SqlCommand(query, con))
+                    {
+                        cmd.Parameters.AddWithValue("@IdMiembro", idMiembro);
+                        cmd.ExecuteNonQuery();
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
+        }
+
         public void ModificarFechaVencimiento(int idClase, int idMiembro, DateTime nuevaFechaVencimiento)
         {
             try
