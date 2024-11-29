@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\GymHub\\GymHub2\\GymHub\\Mapper\\Mapper.csproj": {}
+    "C:\\N\\GymHub\\Mapper\\Mapper.csproj": {}
   },
   "projects": {
-    "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\GymHub\\GymHub2\\GymHub\\Entity\\Entity.csproj": {
+    "C:\\N\\GymHub\\Entity\\Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\GymHub\\GymHub2\\GymHub\\Entity\\Entity.csproj",
+        "projectUniqueName": "C:\\N\\GymHub\\Entity\\Entity.csproj",
         "projectName": "Entity",
-        "projectPath": "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\GymHub\\GymHub2\\GymHub\\Entity\\Entity.csproj",
-        "packagesPath": "C:\\Users\\thiag\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\GymHub\\GymHub2\\GymHub\\Entity\\obj\\",
+        "projectPath": "C:\\N\\GymHub\\Entity\\Entity.csproj",
+        "packagesPath": "C:\\Users\\Nahuel\\.nuget\\packages\\",
+        "outputPath": "C:\\N\\GymHub\\Entity\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\thiag\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nahuel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -60,21 +65,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\GymHub\\GymHub2\\GymHub\\Mapper\\Mapper.csproj": {
+    "C:\\N\\GymHub\\Mapper\\Mapper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\GymHub\\GymHub2\\GymHub\\Mapper\\Mapper.csproj",
+        "projectUniqueName": "C:\\N\\GymHub\\Mapper\\Mapper.csproj",
         "projectName": "Mapper",
-        "projectPath": "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\GymHub\\GymHub2\\GymHub\\Mapper\\Mapper.csproj",
-        "packagesPath": "C:\\Users\\thiag\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\GymHub\\GymHub2\\GymHub\\Mapper\\obj\\",
+        "projectPath": "C:\\N\\GymHub\\Mapper\\Mapper.csproj",
+        "packagesPath": "C:\\Users\\Nahuel\\.nuget\\packages\\",
+        "outputPath": "C:\\N\\GymHub\\Mapper\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\thiag\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nahuel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,14 +91,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\GymHub\\GymHub2\\GymHub\\Entity\\Entity.csproj": {
-                "projectPath": "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\GymHub\\GymHub2\\GymHub\\Entity\\Entity.csproj"
+              "C:\\N\\GymHub\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\N\\GymHub\\Entity\\Entity.csproj"
               }
             }
           }
@@ -130,7 +140,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
