@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Transactions;
 
 namespace BLL
 {
@@ -15,16 +16,39 @@ namespace BLL
         {
             try
             {
-                if(clase == null) { throw new Exception("La clase es inválida."); }
-                if(string.IsNullOrEmpty(clase.Descripcion)) { throw new Exception("La clase debe tener una descripcion.");  }
-                if(clase.Descripcion.Length < 3) { throw new Exception("La descripción de la clase debe tener al menos 3 caracteres");  }
-                if(string.IsNullOrEmpty(clase.Diadeclase)) { throw new Exception("La clase debe tener un día asignado");  }
-                if(string.IsNullOrEmpty(clase.Horario)) { throw new Exception("La clase debe tener un horario asignado"); }
-                if(string.IsNullOrEmpty(clase.EntrenadorACargo)) { throw new Exception("La clase debe tener un entrenador a cargo");  }
-                if(clase.CapacidadMaxima <= 0) { throw new Exception("La capacidad máxima debe ser mayor que cero.");  }
-                ClaseDao.CargarNuevaClase(clase);
+                using(var trx = new TransactionScope())
+                {
+                    if (clase == null) { throw new Exception("La clase es inválida."); }
+                    if (string.IsNullOrEmpty(clase.Descripcion)) { throw new Exception("La clase debe tener una descripcion."); }
+                    if (clase.Descripcion.Length < 3) { throw new Exception("La descripción de la clase debe tener al menos 3 caracteres"); }
+                    if (string.IsNullOrEmpty(clase.Diadeclase)) { throw new Exception("La clase debe tener un día asignado"); }
+                    if (string.IsNullOrEmpty(clase.Horario)) { throw new Exception("La clase debe tener un horario asignado"); }
+                    if (string.IsNullOrEmpty(clase.EntrenadorACargo)) { throw new Exception("La clase debe tener un entrenador a cargo"); }
+                    if (clase.CapacidadMaxima <= 0) { throw new Exception("La capacidad máxima debe ser mayor que cero."); }
+                    ClaseDao.CargarNuevaClase(clase);
+                    trx.Complete();
+                }
             }
             catch (Exception ex)
+            {
+                throw;
+            }
+        }
+
+        public void CargarMultiplesClases(List<Clase> listaClases)
+        {
+            try
+            {
+                using(var trx = new TransactionScope())
+                {
+                    foreach(Clase c in listaClases)
+                    {
+                        CargarNuevaClase(c);
+                    }
+                    trx.Complete();
+                }
+            }
+            catch(Exception ex)
             {
                 throw;
             }

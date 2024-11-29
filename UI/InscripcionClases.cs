@@ -36,7 +36,9 @@ namespace UI
                 dgvInscripciones.DataSource = listaClaseMiembros;
                 dgvInscripciones.Columns["Clase"].Visible = false;
                 dgvInscripciones.Columns["Miembro"].Visible = false;
+                dgvInscripciones.Columns["IdClase"].HeaderText = "ID de clase";
                 dgvInscripciones.Columns["DescripcionClase"].HeaderText = "Clase";
+                dgvInscripciones.Columns["IdMiembro"].HeaderText = "ID de miembro";
                 dgvInscripciones.Columns["NombreMiembro"].HeaderText = "Miembro";
                 dgvInscripciones.Columns["FechaVencimiento"].HeaderText = "Fecha de vencimiento";
                 dgvInscripciones.Columns["FechaInscripcion"].HeaderText = "Fecha de inscripción";
@@ -82,14 +84,18 @@ namespace UI
 
         private void actualizarVista()
         {
-            actualizarDgv(ClaseMiembroBusiness.GetAll());
-            actualizarComboClase(cmbClaseInscribir);
-            actualizarComboClase(cmbClaseExtender);
-            actualizarComboClase(cmbClaseFiltrar);
-            actualizarComboMiembro(cmbMiembroInscribir);
-            actualizarComboMiembro(cmbMiembroExtender);
-            actualizarComboMiembro(cmbMiembroFiltrar);
-            limpiarCampos();
+            try
+            {
+                actualizarDgv(ClaseMiembroBusiness.GetAll());
+                actualizarComboClase(cmbClaseInscribir);
+                actualizarComboClase(cmbClaseExtender);
+                actualizarComboClase(cmbClaseFiltrar);
+                actualizarComboMiembro(cmbMiembroInscribir);
+                actualizarComboMiembro(cmbMiembroExtender);
+                actualizarComboMiembro(cmbMiembroFiltrar);
+                limpiarCampos();
+            }
+            catch(Exception ex) { throw; }
         }
 
         private void btnAgregar_Click(object sender, EventArgs e)
@@ -102,7 +108,7 @@ namespace UI
                     Miembro = MiembroBusiness.BuscarMiembroPorId(Convert.ToInt32(cmbMiembroInscribir.SelectedValue)),
                     FechaVencimiento = dtpVencimiento.Value
                 };
-                ClaseMiembroBusiness.CargarInscripcion(claseMiembro);
+                ClaseMiembroBusiness.CargarNuevaInscripcion(claseMiembro);
                 actualizarVista();
                 MessageBox.Show($"Se inscribió al miembro {claseMiembro.Miembro.NombreYApellido} a la clase {claseMiembro.Clase.Descripcion}");
             }

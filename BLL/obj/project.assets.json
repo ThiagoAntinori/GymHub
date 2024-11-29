@@ -1739,11 +1739,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\BLL\\BLL.csproj",
+      "projectUniqueName": "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\GymHub\\GymHub\\BLL\\BLL.csproj",
       "projectName": "BLL",
-      "projectPath": "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\BLL\\BLL.csproj",
+      "projectPath": "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\GymHub\\GymHub\\BLL\\BLL.csproj",
       "packagesPath": "C:\\Users\\thiag\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\BLL\\obj\\",
+      "outputPath": "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\GymHub\\GymHub\\BLL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\thiag\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1760,11 +1760,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\DAL\\DAL.csproj": {
-              "projectPath": "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\DAL\\DAL.csproj"
+            "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\GymHub\\GymHub\\DAL\\DAL.csproj": {
+              "projectPath": "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\GymHub\\GymHub\\DAL\\DAL.csproj"
             },
-            "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\Entity\\Entity.csproj": {
-              "projectPath": "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\MaxGym\\GymHub\\Entity\\Entity.csproj"
+            "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\GymHub\\GymHub\\Entity\\Entity.csproj": {
+              "projectPath": "C:\\Users\\thiag\\Desktop\\PROJECTS\\C# .NET\\GymHub\\GymHub\\Entity\\Entity.csproj"
             }
           }
         }

@@ -69,19 +69,6 @@ namespace BLL
             catch (Exception ex) { throw; }
         }
 
-        public List<Miembro> GetMiembrosBusiness()
-        {
-            try
-            {
-                using (TransactionScope trx = new TransactionScope())
-                {
-                    return MiembroDao.GetMiembrosData();
-                    trx.Complete();
-                }
-            }
-            catch (Exception ex) { throw; }
-        }
-
         public void ModificarMiembroBusiness(Miembro miembro)
         {
             try
@@ -109,7 +96,6 @@ namespace BLL
             }
         }
 
-
         public void EliminarMiembroBusiness(int idMiembro)
         {
             try
@@ -132,6 +118,19 @@ namespace BLL
             {
                 throw;
             }
+        }
+
+        public List<Miembro> GetMiembrosBusiness()
+        {
+            try
+            {
+                using (TransactionScope trx = new TransactionScope())
+                {
+                    return MiembroDao.GetMiembrosData();
+                    trx.Complete();
+                }
+            }
+            catch (Exception ex) { throw; }
         }
 
         public Miembro BuscarMiembroPorId(int idMiembro)

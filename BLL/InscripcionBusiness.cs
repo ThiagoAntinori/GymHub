@@ -7,31 +7,53 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Transactions;
 
 namespace BLL
 {
     public class InscripcionBusiness
     {
         InscripcionDao InscripcionDao = new InscripcionDao();
-        public void CargarInscripcion(Inscripcion inscripcion)
+        public void CargarNuevaInscripcion(Inscripcion inscripcion)
         {
             try
             {
-                if(inscripcion.Clase == null){ throw new Exception("La inscripción debe estar asociada a una Clase.");  }
-                if(inscripcion.Miembro == null) { throw new Exception("La inscripción debe tener un miembro asociado");  }
-                if(this.GetAll().Where(i => i.Clase.IdClase == inscripcion.Clase.IdClase 
-                    && i.Miembro.IdMiembro == inscripcion.Miembro.IdMiembro).ToList().Count >= 1)
+                using(var trx = new TransactionScope())
                 {
-                    throw new Exception("El miembro seleccionado ya se encuentra inscripto a la clase seleccionada");
+                    if (inscripcion.Clase == null) { throw new Exception("La inscripción debe estar asociada a una Clase."); }
+                    if (inscripcion.Miembro == null) { throw new Exception("La inscripción debe tener un miembro asociado"); }
+                    if (this.GetAll().Where(i => i.Clase.IdClase == inscripcion.Clase.IdClase
+                        && i.Miembro.IdMiembro == inscripcion.Miembro.IdMiembro).ToList().Count >= 1)
+                    {
+                        throw new Exception("El miembro seleccionado ya se encuentra inscripto a la clase seleccionada");
+                    }
+                    if (inscripcion.FechaVencimiento < DateTime.Today) { throw new Exception("La fecha de vencimiento debe ser posterior al día de hoy"); }
+                    if (inscripcion.Clase.CapacidadMaxima == this.GetAll()
+                        .Where(i => i.Clase.IdClase == inscripcion.Clase.IdClase)
+                        .ToList().Count + 1) { throw new Exception("La clase seleccionada alcanzó su capacidad máxima"); }
+                    inscripcion.FechaInscripcion = DateTime.Today;
+                    InscripcionDao.CargarInscripcion(inscripcion);
                 }
-                if(inscripcion.FechaVencimiento < DateTime.Today) { throw new Exception("La fecha de vencimiento debe ser posterior al día de hoy");  }
-                if(inscripcion.Clase.CapacidadMaxima == this.GetAll()
-                    .Where(i => i.Clase.IdClase == inscripcion.Clase.IdClase)
-                    .ToList().Count + 1) { throw new Exception("La clase seleccionada alcanzó su capacidad máxima");  }
-                inscripcion.FechaInscripcion = DateTime.Today;
-                InscripcionDao.CargarInscripcion(inscripcion);
             }
             catch (Exception ex)
+            {
+                throw;
+            }
+        }
+
+        public void CargarMultiplesInscripciones(List<Inscripcion> listaInscripciones)
+        {
+            try
+            {
+                using(var trx = new TransactionScope())
+                {
+                    foreach(Inscripcion ins in listaInscripciones)
+                    {
+                        CargarNuevaInscripcion(ins);
+                    }
+                }
+            }
+            catch(Exception ex)
             {
                 throw;
             }

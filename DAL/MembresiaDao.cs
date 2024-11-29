@@ -1,4 +1,5 @@
 ﻿using Entity;
+using Mapper;
 using Microsoft.Data.SqlClient;
 using System;
 using System.Collections.Generic;
@@ -23,15 +24,8 @@ namespace DAL
                         using (SqlDataReader reader = command.ExecuteReader())
                         {
                             while (reader.Read())
-                            {
-                                Membresia membresia = new Membresia
-                                {
-                                    IdMembresia = Convert.ToInt32(reader["ID_MEMBRESIA"]),
-                                    Descripcion = reader["DESCRIPCION"].ToString(),
-                                    Precio = Convert.ToDecimal(reader["PRECIO"]),
-                                    DuracionDias = Convert.ToInt32(reader["DURACION_DIAS"])
-                                };
-                                listaMembresia.Add(membresia);
+                            {                               
+                                listaMembresia.Add(MembresiaMapper.Map(reader));
                             }
                         }
                     }
