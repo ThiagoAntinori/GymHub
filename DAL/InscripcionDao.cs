@@ -99,12 +99,23 @@ namespace DAL
                             while (reader.Read())
                             {
                                 Inscripcion inscripcion = InscripcionMapper.Map(reader);
-                                inscripcion.Clase = ClaseDao.GetById(Convert.ToInt32(reader["ID_CLASE"].ToString()));
-                                inscripcion.Miembro = MiembroDao.BuscarMiembroPorID(Convert.ToInt32(reader["ID_MIEMBRO"].ToString()));
+                                inscripcion.Clase = new Clase
+                                {
+                                    IdClase = (Convert.ToInt32(reader["ID_CLASE"].ToString()))
+                                };
+                                inscripcion.Miembro = new Miembro
+                                {
+                                    IdMiembro = (Convert.ToInt32(reader["ID_MIEMBRO"].ToString())) 
+                                };
                                 listaInscripciones.Add(inscripcion);
                             }
                         }
                     }
+                }
+                foreach(var ins in listaInscripciones)
+                {
+                    ins.Clase = ClaseDao.GetById(ins.Clase.IdClase);
+                    ins.Miembro = MiembroDao.BuscarMiembroPorID(ins.Miembro.IdMiembro);
                 }
                 return listaInscripciones;
             }

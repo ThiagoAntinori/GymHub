@@ -20,7 +20,7 @@ namespace UI
             InitializeComponent();
         }
 
-        InscripcionBusiness ClaseMiembroBusiness = new InscripcionBusiness();
+        InscripcionBusiness InscripcionBusiness = new InscripcionBusiness();
         ClaseBusiness ClaseBusiness = new ClaseBusiness();
         MiembroBusiness MiembroBusiness = new MiembroBusiness();
 
@@ -30,12 +30,12 @@ namespace UI
             actualizarVista();
         }
 
-        private void actualizarDgv(List<Inscripcion> listaClaseMiembros)
+        private void actualizarDgv(List<Inscripcion> listaInscripciones)
         {
             try
             {
                 dgvInscripciones.DataSource = null;
-                dgvInscripciones.DataSource = listaClaseMiembros;
+                dgvInscripciones.DataSource = listaInscripciones;
                 dgvInscripciones.Columns["Clase"].Visible = false;
                 dgvInscripciones.Columns["Miembro"].Visible = false;
                 dgvInscripciones.Columns["IdClase"].HeaderText = "ID de clase";
@@ -88,7 +88,7 @@ namespace UI
         {
             try
             {
-                actualizarDgv(ClaseMiembroBusiness.GetAll());
+                actualizarDgv(InscripcionBusiness.GetAll());
                 actualizarComboClase(cmbClaseInscribir);
                 actualizarComboClase(cmbClaseExtender);
                 actualizarComboClase(cmbClaseFiltrar);
@@ -110,7 +110,7 @@ namespace UI
                     Miembro = MiembroBusiness.BuscarMiembroPorId(Convert.ToInt32(cmbMiembroInscribir.SelectedValue)),
                     FechaVencimiento = dtpVencimiento.Value
                 };
-                ClaseMiembroBusiness.CargarNuevaInscripcion(claseMiembro);
+                InscripcionBusiness.CargarNuevaInscripcion(claseMiembro);
                 actualizarVista();
                 MessageBox.Show($"Se inscribió al miembro {claseMiembro.Miembro.NombreYApellido} a la clase {claseMiembro.Clase.Descripcion}");
             }
@@ -124,7 +124,7 @@ namespace UI
         {
             try
             {
-                ClaseMiembroBusiness.ModificarFechaVencimiento(Convert.ToInt32(cmbClaseExtender.SelectedValue), Convert.ToInt32(cmbMiembroExtender.SelectedValue), dtpVencimientoExtender.Value);
+                InscripcionBusiness.ModificarFechaVencimiento(Convert.ToInt32(cmbClaseExtender.SelectedValue), Convert.ToInt32(cmbMiembroExtender.SelectedValue), dtpVencimientoExtender.Value);
                 actualizarVista();
                 MessageBox.Show("Se extendió la fecha de vencimiento");
             }
@@ -140,7 +140,7 @@ namespace UI
             {
                 if (MessageBox.Show($"¿Desea eliminar la inscripción del miembro {txtIdMiembroEliminar.Text} a la clase {txtIdClaseEliminar.Text}?", "Atención", MessageBoxButtons.YesNo) == DialogResult.Yes)
                 {
-                    ClaseMiembroBusiness.EliminarInscripcion(Convert.ToInt32(txtIdClaseEliminar.Text), Convert.ToInt32(txtIdMiembroEliminar.Text));
+                    InscripcionBusiness.EliminarInscripcion(Convert.ToInt32(txtIdClaseEliminar.Text), Convert.ToInt32(txtIdMiembroEliminar.Text));
                     actualizarVista();
                     MessageBox.Show("Se eliminó la inscripción correctamente");
                 }
@@ -160,12 +160,12 @@ namespace UI
                     throw new Exception("Seleccione un miembro para filtrar");
                 }
                 int idMiembro = Convert.ToInt32(cmbMiembroFiltrar.SelectedValue);
-                actualizarDgv(ClaseMiembroBusiness.GetAll().Where(cm => cm.Miembro.IdMiembro == idMiembro).ToList());
+                actualizarDgv(InscripcionBusiness.GetAll().Where(cm => cm.Miembro.IdMiembro == idMiembro).ToList());
                 cmbMiembroFiltrar.SelectedIndex = -1;
             }
             catch (Exception ex)
             {
-                throw;
+                MessageBox.Show(ex.Message);
             }
         }
 
@@ -178,7 +178,7 @@ namespace UI
                     throw new Exception("Seleccione una clase para filtrar");
                 }
                 int idClase = Convert.ToInt32(cmbClaseFiltrar.SelectedValue);
-                actualizarDgv(ClaseMiembroBusiness.GetAll().Where(cm => cm.Clase.IdClase == idClase).ToList());
+                actualizarDgv(InscripcionBusiness.GetAll().Where(cm => cm.Clase.IdClase == idClase).ToList());
                 cmbClaseFiltrar.SelectedIndex = -1;
             }
             catch (Exception ex)

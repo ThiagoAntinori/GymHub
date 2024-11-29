@@ -23,7 +23,7 @@ namespace BLL
                     if (inscripcion.Clase == null) { throw new Exception("La inscripción debe estar asociada a una Clase."); }
                     if (inscripcion.Miembro == null) { throw new Exception("La inscripción debe tener un miembro asociado"); }
                     if (this.GetAll().Where(i => i.Clase.IdClase == inscripcion.Clase.IdClase
-                        && i.Miembro.IdMiembro == inscripcion.Miembro.IdMiembro).ToList().Count >= 1)
+                        && i.Miembro.IdMiembro == inscripcion.Miembro.IdMiembro).ToList().Count == 1)
                     {
                         throw new Exception("El miembro seleccionado ya se encuentra inscripto a la clase seleccionada");
                     }
@@ -33,6 +33,7 @@ namespace BLL
                         .ToList().Count + 1) { throw new Exception("La clase seleccionada alcanzó su capacidad máxima"); }
                     inscripcion.FechaInscripcion = DateTime.Today;
                     InscripcionDao.CargarInscripcion(inscripcion);
+                    trx.Complete();
                 }
             }
             catch (Exception ex)
@@ -51,6 +52,7 @@ namespace BLL
                     {
                         CargarNuevaInscripcion(ins);
                     }
+                    trx.Complete();
                 }
             }
             catch(Exception ex)
