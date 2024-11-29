@@ -22,6 +22,7 @@ namespace UI
 
         MembresiaBusiness membresiasBusiness = new MembresiaBusiness();
         MiembroBusiness miembroBusiness = new MiembroBusiness();
+        public List<Miembro> listaBorrador = new List<Miembro>();
 
         public void textBox_SoloLetras(object sender, KeyPressEventArgs e)
         {
@@ -131,21 +132,49 @@ namespace UI
 
         private void btn_cargarBorrador_Click(object sender, EventArgs e)
         {
-            Miembro nuevoMiembro = new Miembro
+            try
             {
-                NombreYApellido = txt_nombreApellido.Text,
-                FechaNacimiento = Convert.ToDateTime(dtp_nacimiento.Text),
-                CorreoElectronico = txt_correo.Text,
-                Membresia = new Membresia
+                Miembro nuevoMiembro = new Miembro
                 {
-                    IdMembresia = Convert.ToInt32(cb_membresia.SelectedValue),
-                }
-            };
+                    NombreYApellido = txt_nombreApellido.Text,
+                    FechaNacimiento = Convert.ToDateTime(dtp_nacimiento.Text),
+                    CorreoElectronico = txt_correo.Text,
+                    Membresia = new Membresia
+                    {
+                        IdMembresia = Convert.ToInt32(cb_membresia.SelectedValue),
+                    }
+                };
+                listaBorrador.Add(nuevoMiembro);
+                actualizarElementos();
+                MessageBox.Show($"Se agregó al borrador. Cantidad en espera: {listaBorrador.Count}");
+            }
+            catch (FormatException fe)
+            {
+                MessageBox.Show(fe.Message);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void btn_guardarCambios_Click(object sender, EventArgs e)
         {
-
+            try
+            {
+                if (listaBorrador.Count <= 0)
+                {
+                    throw new Exception("No hay miembros en espera");
+                }
+                miembroBusiness.CargarMultiplesMiembros(listaBorrador);
+                actualizarElementos();
+                MessageBox.Show("Se cargaron correctamente");
+            }
+            catch (Exception ex)
+            {
+                listaBorrador.Clear();
+                MessageBox.Show(ex.Message + ". Se descartaron el resto de los miembros del borrador.");
+            }
         }
 
         private void btn_Eliminar_Click(object sender, EventArgs e)

@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\N\\GymHub\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{307F09A6-9271-448C-84D5-B22B64F4D230}|UI\\UI.csproj|c:\\n\\gymhub\\ui\\gestormiembros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{307F09A6-9271-448C-84D5-B22B64F4D230}|UI\\UI.csproj|solutionrelative:ui\\gestormiembros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{307F09A6-9271-448C-84D5-B22B64F4D230}|UI\\UI.csproj|c:\\n\\gymhub\\ui\\gestormiembros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{307F09A6-9271-448C-84D5-B22B64F4D230}|UI\\UI.csproj|solutionrelative:ui\\gestormiembros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -29,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{307F09A6-9271-448C-84D5-B22B64F4D230}|UI\\UI.csproj|C:\\N\\GymHub\\ui\\gestorclases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{307F09A6-9271-448C-84D5-B22B64F4D230}|UI\\UI.csproj|solutionrelative:ui\\gestorclases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{307F09A6-9271-448C-84D5-B22B64F4D230}|UI\\UI.csproj|c:\\n\\gymhub\\ui\\gestormiembros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{307F09A6-9271-448C-84D5-B22B64F4D230}|UI\\UI.csproj|solutionrelative:ui\\gestormiembros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D6FAB391-4054-4DC8-A63C-A303BC2E4BAB}|BLL\\BLL.csproj|c:\\n\\gymhub\\bll\\clasebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -90,17 +90,17 @@
       "DocumentGroups": [
         {
           "DockedHeight": 759,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "GestorMiembros.cs",
               "DocumentMoniker": "C:\\N\\GymHub\\UI\\GestorMiembros.cs",
               "RelativeDocumentMoniker": "UI\\GestorMiembros.cs",
               "ToolTip": "C:\\N\\GymHub\\UI\\GestorMiembros.cs",
               "RelativeToolTip": "UI\\GestorMiembros.cs",
-              "ViewState": "AgIAAHsAAAAAAAAAAAAAwI4AAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-29T15:52:56.797Z",
               "IsPinned": true,
@@ -108,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MiembroBusiness.cs",
               "DocumentMoniker": "C:\\N\\GymHub\\BLL\\MiembroBusiness.cs",
               "RelativeDocumentMoniker": "BLL\\MiembroBusiness.cs",
@@ -117,12 +117,11 @@
               "ViewState": "AgIAAGYAAAAAAAAAAAAowEIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-29T13:00:37.494Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "GestorMiembros.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\N\\GymHub\\UI\\GestorMiembros.cs",
               "RelativeDocumentMoniker": "UI\\GestorMiembros.cs",
@@ -135,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "InscripcionDao.cs",
               "DocumentMoniker": "C:\\N\\GymHub\\DAL\\InscripcionDao.cs",
               "RelativeDocumentMoniker": "DAL\\InscripcionDao.cs",
@@ -143,12 +142,11 @@
               "RelativeToolTip": "DAL\\InscripcionDao.cs",
               "ViewState": "AgIAAGIAAAAAAAAAAAAIwGYAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T01:00:57.939Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-29T01:00:57.939Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "InscripcionBusiness.cs",
               "DocumentMoniker": "C:\\N\\GymHub\\BLL\\InscripcionBusiness.cs",
               "RelativeDocumentMoniker": "BLL\\InscripcionBusiness.cs",
@@ -156,12 +154,11 @@
               "RelativeToolTip": "BLL\\InscripcionBusiness.cs",
               "ViewState": "AgIAAEkAAAAAAAAAAAAwwCIAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T01:03:12.475Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-29T01:03:12.475Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "MembresiaBusiness.cs",
               "DocumentMoniker": "C:\\N\\GymHub\\BLL\\MembresiaBusiness.cs",
               "RelativeDocumentMoniker": "BLL\\MembresiaBusiness.cs",
@@ -169,12 +166,11 @@
               "RelativeToolTip": "BLL\\MembresiaBusiness.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T20:06:17.159Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-29T20:06:17.159Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "App.config",
               "DocumentMoniker": "C:\\N\\GymHub\\UI\\App.config",
               "RelativeDocumentMoniker": "UI\\App.config",
@@ -182,12 +178,11 @@
               "RelativeToolTip": "UI\\App.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-11-29T14:25:15.644Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-29T14:25:15.644Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "GestorClases.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\N\\GymHub\\UI\\GestorClases.cs",
               "RelativeDocumentMoniker": "UI\\GestorClases.cs",
