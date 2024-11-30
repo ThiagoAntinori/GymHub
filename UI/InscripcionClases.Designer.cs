@@ -326,7 +326,7 @@
             label15.BackColor = Color.Transparent;
             label15.Font = new Font("Impact", 27.75F, FontStyle.Underline, GraphicsUnit.Point, 0);
             label15.ForeColor = Color.White;
-            label15.Location = new Point(539, 41);
+            label15.Location = new Point(515, 39);
             label15.Name = "label15";
             label15.Size = new Size(426, 45);
             label15.TabIndex = 37;

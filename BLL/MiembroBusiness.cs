@@ -13,40 +13,39 @@ namespace BLL
     {
         private MiembroDao MiembroDao = new MiembroDao();
         private InscripcionBusiness InscripcionBusiness = new InscripcionBusiness();
-        public void CargarMiembroBusiness(Miembro nuevomiembro)
+        public void CargarMiembroBusiness(Miembro nuevoMiembro)
         {
             try
             {
                 using (TransactionScope trx = new TransactionScope())
                 {
-                    if (nuevomiembro == null)
+                    if (nuevoMiembro == null)
                     {
                         throw new Exception("Debe cargar todos los datos");
                     }
-                    if (string.IsNullOrEmpty(nuevomiembro.NombreYApellido))
+                    if (string.IsNullOrEmpty(nuevoMiembro.NombreYApellido))
                     {
                         throw new Exception("El miembro debe tener nombre y apellido");
                     }
-                    if (nuevomiembro.NombreYApellido.Length < 6)
+                    if (nuevoMiembro.NombreYApellido.Length < 6)
                     {
                         throw new Exception("El nombre y apellido debe contener mas de 6 caracteres");
                     }
-                    if (nuevomiembro.FechaNacimiento > DateTime.Now)
+                    if (nuevoMiembro.FechaNacimiento > DateTime.Now)
                     {
                         throw new Exception("La fecha de nacimiento no puede ser mayor a hoy");
                     }
-                    if (!nuevomiembro.CorreoElectronico.Contains('@') || (!nuevomiembro.CorreoElectronico.Contains(".com.ar")))
+                    if (!nuevoMiembro.CorreoElectronico.Contains('@') || (!nuevoMiembro.CorreoElectronico.Contains(".com.ar")))
                     {
                         throw new Exception("El formato del correo electronico es incorrecto \n ejemplo correcto: nombre.apellido@uai.com.ar");
                     }
-                    if ((DateTime.Now.Year - nuevomiembro.FechaNacimiento.Year) < 12)
+                    if (EsMenorDe12Años(nuevoMiembro.FechaNacimiento))
                     {
-                        throw new Exception("El miembro debe tener mas de 12 años de edad");
+                        throw new Exception("El miembro no puede ser menor a 12 años.");
                     }
-                    MiembroDao.CargarNuevoMiembro(nuevomiembro);
+                    MiembroDao.CargarNuevoMiembro(nuevoMiembro);
                     trx.Complete();
                 }
-
             }
             catch (Exception ex)
             {
@@ -54,21 +53,42 @@ namespace BLL
             }
         }
 
-        public void CargarMultiplesMiembros(List<Miembro> miembrosBorrador)
+        public bool EsMenorDe12Años(DateTime fechaNacimiento)
+        {
+            if ((DateTime.Today.Year - fechaNacimiento.Year) < 12)
+            {
+                return true;
+            }
+            if (DateTime.Today.Month < fechaNacimiento.Month)
+            {
+                return true;
+            }
+            if (DateTime.Today.Day < fechaNacimiento.Day)
+            {
+                return true;
+            }
+            return false;
+        }
+
+        public void CargarMultiplesMiembros(List<Miembro> listaMiembros)
         {
             try
             {
                 using (TransactionScope trx = new TransactionScope())
                 {
-                    foreach (Miembro miembro in miembrosBorrador)
+                    foreach (Miembro miembro in listaMiembros)
                     {
                         CargarMiembroBusiness(miembro);
                     }
                     trx.Complete();
                 }
             }
-            catch (Exception ex) { throw; }
+            catch (Exception ex) 
+            { 
+                throw; 
+            }
         }
+        
 
         public void ModificarMiembroBusiness(Miembro miembro)
         {
@@ -132,7 +152,10 @@ namespace BLL
                     trx.Complete();
                 }
             }
-            catch (Exception ex) { throw; }
+            catch (Exception ex) 
+            {
+                throw; 
+            }
         }
 
         public Miembro BuscarMiembroPorId(int idMiembro)

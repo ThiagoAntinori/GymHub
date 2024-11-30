@@ -117,21 +117,21 @@
             cmbDia.Location = new Point(250, 187);
             cmbDia.Name = "cmbDia";
             cmbDia.Size = new Size(200, 23);
-            cmbDia.TabIndex = 13;
+            cmbDia.TabIndex = 3;
             // 
             // txtDescripcion
             // 
             txtDescripcion.Location = new Point(250, 93);
             txtDescripcion.Name = "txtDescripcion";
             txtDescripcion.Size = new Size(200, 23);
-            txtDescripcion.TabIndex = 9;
+            txtDescripcion.TabIndex = 0;
             // 
             // txtHorario
             // 
             txtHorario.Location = new Point(250, 157);
             txtHorario.Name = "txtHorario";
             txtHorario.Size = new Size(200, 23);
-            txtHorario.TabIndex = 7;
+            txtHorario.TabIndex = 2;
             // 
             // btnAgregar
             // 
@@ -142,7 +142,7 @@
             btnAgregar.Location = new Point(250, 253);
             btnAgregar.Name = "btnAgregar";
             btnAgregar.Size = new Size(200, 31);
-            btnAgregar.TabIndex = 6;
+            btnAgregar.TabIndex = 5;
             btnAgregar.Text = "AGREGAR";
             btnAgregar.UseVisualStyleBackColor = false;
             btnAgregar.Click += btnAgregar_Click;
@@ -221,7 +221,7 @@
             txtEntrenadorModificar.Location = new Point(250, 387);
             txtEntrenadorModificar.Name = "txtEntrenadorModificar";
             txtEntrenadorModificar.Size = new Size(200, 23);
-            txtEntrenadorModificar.TabIndex = 24;
+            txtEntrenadorModificar.TabIndex = 7;
             // 
             // btnModificar
             // 
@@ -232,7 +232,7 @@
             btnModificar.Location = new Point(250, 503);
             btnModificar.Name = "btnModificar";
             btnModificar.Size = new Size(200, 31);
-            btnModificar.TabIndex = 23;
+            btnModificar.TabIndex = 11;
             btnModificar.Text = "MODIFICAR";
             btnModificar.UseVisualStyleBackColor = false;
             btnModificar.Click += btnModificar_Click_1;
@@ -242,7 +242,7 @@
             txtIdModificar.Location = new Point(250, 358);
             txtIdModificar.Name = "txtIdModificar";
             txtIdModificar.Size = new Size(200, 23);
-            txtIdModificar.TabIndex = 20;
+            txtIdModificar.TabIndex = 6;
             // 
             // label7
             // 
@@ -265,7 +265,7 @@
             btnEliminar.Location = new Point(736, 463);
             btnEliminar.Name = "btnEliminar";
             btnEliminar.Size = new Size(117, 30);
-            btnEliminar.TabIndex = 27;
+            btnEliminar.TabIndex = 13;
             btnEliminar.Text = "ELIMINAR";
             btnEliminar.UseVisualStyleBackColor = false;
             btnEliminar.Click += btnEliminar_Click;
@@ -275,7 +275,7 @@
             txtIdEliminar.Location = new Point(554, 467);
             txtIdEliminar.Name = "txtIdEliminar";
             txtIdEliminar.Size = new Size(176, 23);
-            txtIdEliminar.TabIndex = 26;
+            txtIdEliminar.TabIndex = 12;
             // 
             // label12
             // 
@@ -414,14 +414,14 @@
             txtEntrenador.Location = new Point(250, 124);
             txtEntrenador.Name = "txtEntrenador";
             txtEntrenador.Size = new Size(200, 23);
-            txtEntrenador.TabIndex = 38;
+            txtEntrenador.TabIndex = 1;
             // 
             // txtCapacidadMaxima
             // 
             txtCapacidadMaxima.Location = new Point(250, 216);
             txtCapacidadMaxima.Name = "txtCapacidadMaxima";
             txtCapacidadMaxima.Size = new Size(200, 23);
-            txtCapacidadMaxima.TabIndex = 40;
+            txtCapacidadMaxima.TabIndex = 4;
             // 
             // label16
             // 
@@ -440,7 +440,7 @@
             txtHorarioModificar.Location = new Point(250, 445);
             txtHorarioModificar.Name = "txtHorarioModificar";
             txtHorarioModificar.Size = new Size(200, 23);
-            txtHorarioModificar.TabIndex = 42;
+            txtHorarioModificar.TabIndex = 9;
             // 
             // label17
             // 
@@ -459,7 +459,7 @@
             txtCapacidadMaximaModificar.Location = new Point(250, 474);
             txtCapacidadMaximaModificar.Name = "txtCapacidadMaximaModificar";
             txtCapacidadMaximaModificar.Size = new Size(200, 23);
-            txtCapacidadMaximaModificar.TabIndex = 44;
+            txtCapacidadMaximaModificar.TabIndex = 10;
             // 
             // label18
             // 

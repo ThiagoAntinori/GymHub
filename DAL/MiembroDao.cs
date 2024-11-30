@@ -11,7 +11,7 @@ namespace DAL
 {
     public class MiembroDao
     {
-        public void CargarNuevoMiembro(Miembro nuevomiembro)
+        public void CargarNuevoMiembro(Miembro nuevoMiembro)
         {
             try
             {
@@ -23,7 +23,7 @@ namespace DAL
                     
                     using (SqlCommand command = new SqlCommand(queryAlta, conexion))
                     {
-                        var parameters = MiembroMapper.MapMiembroParametros(nuevomiembro);
+                        var parameters = MiembroMapper.MapMiembroParametros(nuevoMiembro);
                         foreach (var param in parameters)
                         {
                             command.Parameters.AddWithValue(param.Key, param.Value);

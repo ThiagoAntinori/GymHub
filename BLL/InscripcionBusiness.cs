@@ -21,17 +21,30 @@ namespace BLL
             {
                 using(var trx = new TransactionScope())
                 {
-                    if (inscripcion.Clase == null) { throw new Exception("La inscripción debe estar asociada a una Clase."); }
-                    if (inscripcion.Miembro == null) { throw new Exception("La inscripción debe tener un miembro asociado"); }
-                    if (this.GetAll().Where(i => i.Clase.IdClase == inscripcion.Clase.IdClase
-                        && i.Miembro.IdMiembro == inscripcion.Miembro.IdMiembro).ToList().Count == 1)
+                    if (inscripcion.Clase == null) 
+                    { 
+                        throw new Exception("La inscripción debe estar asociada a una Clase."); 
+                    }
+                    if (inscripcion.Miembro == null) 
+                    { 
+                        throw new Exception("La inscripción debe tener un miembro asociado"); 
+                    }
+                    if (this.GetAll().
+                        Where(i => i.Clase.IdClase == inscripcion.Clase.IdClase && i.Miembro.IdMiembro == inscripcion.Miembro.IdMiembro).
+                        ToList().Count == 1)
                     {
                         throw new Exception("El miembro seleccionado ya se encuentra inscripto a la clase seleccionada");
                     }
-                    if (inscripcion.FechaVencimiento < DateTime.Today) { throw new Exception("La fecha de vencimiento debe ser posterior al día de hoy"); }
+                    if (inscripcion.FechaVencimiento < DateTime.Today) 
+                    { 
+                        throw new Exception("La fecha de vencimiento debe ser posterior al día de hoy"); 
+                    }
                     if (inscripcion.Clase.CapacidadMaxima == this.GetAll()
                         .Where(i => i.Clase.IdClase == inscripcion.Clase.IdClase)
-                        .ToList().Count) { throw new Exception("La clase seleccionada alcanzó su capacidad máxima"); }
+                        .ToList().Count) 
+                    {
+                        throw new Exception("La clase seleccionada alcanzó su capacidad máxima"); 
+                    }
                     inscripcion.FechaInscripcion = DateTime.Today;
                     InscripcionDao.CargarInscripcion(inscripcion);
                     trx.Complete();

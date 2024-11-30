@@ -112,28 +112,28 @@
             cb_membresia.Location = new Point(250, 190);
             cb_membresia.Name = "cb_membresia";
             cb_membresia.Size = new Size(200, 23);
-            cb_membresia.TabIndex = 13;
+            cb_membresia.TabIndex = 3;
             // 
             // dtp_nacimiento
             // 
             dtp_nacimiento.Location = new Point(250, 129);
             dtp_nacimiento.Name = "dtp_nacimiento";
             dtp_nacimiento.Size = new Size(200, 23);
-            dtp_nacimiento.TabIndex = 12;
+            dtp_nacimiento.TabIndex = 1;
             // 
             // txt_nombreApellido
             // 
             txt_nombreApellido.Location = new Point(250, 96);
             txt_nombreApellido.Name = "txt_nombreApellido";
             txt_nombreApellido.Size = new Size(200, 23);
-            txt_nombreApellido.TabIndex = 9;
+            txt_nombreApellido.TabIndex = 0;
             // 
             // txt_correo
             // 
             txt_correo.Location = new Point(250, 160);
             txt_correo.Name = "txt_correo";
             txt_correo.Size = new Size(200, 23);
-            txt_correo.TabIndex = 7;
+            txt_correo.TabIndex = 2;
             // 
             // btn_Agregar
             // 
@@ -144,7 +144,7 @@
             btn_Agregar.Location = new Point(250, 230);
             btn_Agregar.Name = "btn_Agregar";
             btn_Agregar.Size = new Size(200, 57);
-            btn_Agregar.TabIndex = 6;
+            btn_Agregar.TabIndex = 4;
             btn_Agregar.Text = "AGREGAR";
             btn_Agregar.UseVisualStyleBackColor = false;
             btn_Agregar.Click += btn_Agregar_Click;
@@ -191,7 +191,7 @@
             label6.BackColor = Color.Transparent;
             label6.Font = new Font("Impact", 12F);
             label6.ForeColor = Color.White;
-            label6.Location = new Point(163, 418);
+            label6.Location = new Point(163, 446);
             label6.Name = "label6";
             label6.Size = new Size(86, 20);
             label6.TabIndex = 15;
@@ -200,10 +200,10 @@
             // cb_modMembresia
             // 
             cb_modMembresia.FormattingEnabled = true;
-            cb_modMembresia.Location = new Point(250, 418);
+            cb_modMembresia.Location = new Point(250, 446);
             cb_modMembresia.Name = "cb_modMembresia";
             cb_modMembresia.Size = new Size(200, 23);
-            cb_modMembresia.TabIndex = 26;
+            cb_modMembresia.TabIndex = 7;
             // 
             // label5
             // 
@@ -211,7 +211,7 @@
             label5.BackColor = Color.Transparent;
             label5.Font = new Font("Impact", 12F);
             label5.ForeColor = Color.White;
-            label5.Location = new Point(97, 382);
+            label5.Location = new Point(97, 410);
             label5.Name = "label5";
             label5.Size = new Size(153, 20);
             label5.TabIndex = 25;
@@ -219,10 +219,10 @@
             // 
             // txt_modCorreo
             // 
-            txt_modCorreo.Location = new Point(250, 382);
+            txt_modCorreo.Location = new Point(250, 410);
             txt_modCorreo.Name = "txt_modCorreo";
             txt_modCorreo.Size = new Size(200, 23);
-            txt_modCorreo.TabIndex = 24;
+            txt_modCorreo.TabIndex = 6;
             // 
             // btn_Modificar
             // 
@@ -230,20 +230,20 @@
             btn_Modificar.FlatStyle = FlatStyle.Popup;
             btn_Modificar.Font = new Font("Impact", 12F);
             btn_Modificar.ForeColor = Color.White;
-            btn_Modificar.Location = new Point(250, 459);
+            btn_Modificar.Location = new Point(250, 487);
             btn_Modificar.Name = "btn_Modificar";
             btn_Modificar.Size = new Size(200, 31);
-            btn_Modificar.TabIndex = 23;
+            btn_Modificar.TabIndex = 8;
             btn_Modificar.Text = "MODIFICAR";
             btn_Modificar.UseVisualStyleBackColor = false;
             btn_Modificar.Click += btn_Modificar_Click;
             // 
             // txt_modId
             // 
-            txt_modId.Location = new Point(250, 348);
+            txt_modId.Location = new Point(250, 376);
             txt_modId.Name = "txt_modId";
             txt_modId.Size = new Size(200, 23);
-            txt_modId.TabIndex = 20;
+            txt_modId.TabIndex = 5;
             // 
             // label7
             // 
@@ -251,7 +251,7 @@
             label7.BackColor = Color.Transparent;
             label7.Font = new Font("Impact", 12F);
             label7.ForeColor = Color.White;
-            label7.Location = new Point(135, 348);
+            label7.Location = new Point(135, 376);
             label7.Name = "label7";
             label7.Size = new Size(115, 20);
             label7.TabIndex = 13;
@@ -263,20 +263,20 @@
             btn_Eliminar.FlatStyle = FlatStyle.Popup;
             btn_Eliminar.Font = new Font("Impact", 12F);
             btn_Eliminar.ForeColor = Color.White;
-            btn_Eliminar.Location = new Point(746, 466);
+            btn_Eliminar.Location = new Point(748, 467);
             btn_Eliminar.Name = "btn_Eliminar";
             btn_Eliminar.Size = new Size(117, 30);
-            btn_Eliminar.TabIndex = 27;
+            btn_Eliminar.TabIndex = 10;
             btn_Eliminar.Text = "ELIMINAR";
             btn_Eliminar.UseVisualStyleBackColor = false;
             btn_Eliminar.Click += btn_Eliminar_Click;
             // 
             // txt_elimId
             // 
-            txt_elimId.Location = new Point(554, 470);
+            txt_elimId.Location = new Point(556, 471);
             txt_elimId.Name = "txt_elimId";
             txt_elimId.Size = new Size(176, 23);
-            txt_elimId.TabIndex = 26;
+            txt_elimId.TabIndex = 9;
             // 
             // label12
             // 
@@ -284,7 +284,7 @@
             label12.BackColor = Color.Transparent;
             label12.Font = new Font("Impact", 12F);
             label12.ForeColor = Color.White;
-            label12.Location = new Point(469, 472);
+            label12.Location = new Point(471, 473);
             label12.Name = "label12";
             label12.Size = new Size(86, 20);
             label12.TabIndex = 25;
@@ -356,7 +356,7 @@
             label10.BackColor = Color.Transparent;
             label10.Font = new Font("Impact", 27.75F, FontStyle.Italic | FontStyle.Underline);
             label10.ForeColor = Color.FromArgb(255, 128, 0);
-            label10.Location = new Point(287, 290);
+            label10.Location = new Point(287, 318);
             label10.Name = "label10";
             label10.Size = new Size(160, 45);
             label10.TabIndex = 34;
@@ -368,7 +368,7 @@
             label11.BackColor = Color.Transparent;
             label11.Font = new Font("Impact", 27.75F, FontStyle.Italic | FontStyle.Underline);
             label11.ForeColor = Color.White;
-            label11.Location = new Point(105, 290);
+            label11.Location = new Point(105, 318);
             label11.Name = "label11";
             label11.Size = new Size(183, 45);
             label11.TabIndex = 33;
@@ -380,7 +380,7 @@
             label13.BackColor = Color.Transparent;
             label13.Font = new Font("Impact", 20.25F, FontStyle.Italic | FontStyle.Underline);
             label13.ForeColor = Color.FromArgb(255, 128, 0);
-            label13.Location = new Point(583, 419);
+            label13.Location = new Point(585, 420);
             label13.Name = "label13";
             label13.Size = new Size(117, 34);
             label13.TabIndex = 36;
@@ -392,7 +392,7 @@
             label14.BackColor = Color.Transparent;
             label14.Font = new Font("Impact", 20.25F, FontStyle.Italic | FontStyle.Underline);
             label14.ForeColor = Color.White;
-            label14.Location = new Point(469, 419);
+            label14.Location = new Point(471, 420);
             label14.Name = "label14";
             label14.Size = new Size(115, 34);
             label14.TabIndex = 35;
@@ -424,7 +424,7 @@
             panel1.Dock = DockStyle.Left;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(92, 515);
+            panel1.Size = new Size(92, 554);
             panel1.TabIndex = 38;
             // 
             // label19
@@ -667,7 +667,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(64, 64, 64);
             BackgroundImage = Properties.Resources.Fondo;
-            ClientSize = new Size(1142, 515);
+            ClientSize = new Size(1142, 554);
             Controls.Add(btn_guardarCambios);
             Controls.Add(btn_cargarBorrador);
             Controls.Add(p_ventana);
